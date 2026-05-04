@@ -4,6 +4,10 @@
 .env.local
 *.local
 
+# Fetched by scripts/bootstrap-3rdparty.* (large; do not commit)
+3dParty/boost_1_45_0/
+3dParty/.downloads/
+
 # CMake / out-of-source builds
 build/
 out/

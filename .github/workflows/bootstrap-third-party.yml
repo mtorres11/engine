@@ -1,0 +1,36 @@
+# Verifies third-party bootstrap scripts (Boost download) on macOS and Windows.
+# Full engine build still requires PhysX 2.8.1 + MSVC locally or on a self-hosted runner.
+
+name: bootstrap-third-party
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master, main]
+    paths:
+      - "scripts/bootstrap-3rdparty.sh"
+      - "scripts/bootstrap-3rdparty.ps1"
+      - ".github/workflows/bootstrap-third-party.yml"
+
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Boost 1.45
+        run: bash scripts/bootstrap-3rdparty.sh
+      - name: Sanity check
+        run: test -f 3dParty/boost_1_45_0/boost/version.hpp
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Boost 1.45
+        shell: pwsh
+        run: |
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+          ./scripts/bootstrap-3rdparty.ps1
+      - name: Sanity check
+        shell: pwsh
+        run: Test-Path -LiteralPath 3dParty/boost_1_45_0/boost/version.hpp
