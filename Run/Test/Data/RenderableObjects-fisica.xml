@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<renderable_objs>
+	<object name="Box01" core="Box01" pos="0.0 0.883019 -0.591297" yaw="0.0" pitch="0.0" roll="0.0" min="-0.5 0.0 -0.5" max="0.5 1.0 0.5" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box02" core="Box02" pos="5.67367 0.883019 -5.84195" yaw="0.0" pitch="0.0" roll="0.0" min="-1.0 0.0 -0.5" max="1.0 0.5 0.5" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box03" core="Box03" pos="5.7063 0.883019 -6.92847" yaw="0.0" pitch="0.0" roll="0.0" min="-1.0 0.0 -0.5" max="1.0 1.0 0.5" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box04" core="Box04" pos="5.69691 0.883019 -8.02192" yaw="0.0" pitch="0.0" roll="0.0" min="-1.0 0.0 -0.5" max="1.0 1.5 0.5" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box05_fbb" core="Box05_fbb" pos="5.67602 0.883019 -10.1531" yaw="0.0" pitch="0.0" roll="0.0" min="-1.0 0.0 -1.5" max="1.0 2.0 1.5" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Sphere01_fbs" core="Sphere01_fbs" pos="0.633625 2.16861 -9.0153" yaw="0.0" pitch="0.0" roll="0.0" min="-1.0 -1.0 -1.0" max="0.0f" density="0.0" angularDamping="0.0" type="2"  />
+	<object name="Box06" core="Box06" pos="11.3984 1.97595 -8.97336" yaw="0.0" pitch="0.0" roll="20.0" min="-2.0 0.0175467 -3.04821" max="2.0 0.132453 3.04821" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box07" core="Box07" pos="11.385 2.0551 -3.09389" yaw="180.0" pitch="0.0" roll="20.0" min="2.0 -1.92836 2.29813" max="-2.0 2.07836 -2.29813" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box08" core="Box08" pos="11.425 1.95763 2.90406" yaw="0.0" pitch="0.0" roll="20.0" min="-2.0 0.0175467 -3.04821" max="2.0 0.132453 3.04821" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Pyramid01" core="Pyramid01" pos="-5.036 0.888019 7.45931" yaw="33.5" pitch="0.0" roll="0.0" min="-3.87018 0.0 -0.796204" max="3.87018 3.56974 0.796204" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cone02" core="Cone02" pos="19.5604 0.883019 19.4939" yaw="0.0" pitch="0.0" roll="0.0" min="-0.618637 0.0 -0.618637" max="0.618637 4.1104 0.618637" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Tube01_fbm" core="Tube01_fbm" pos="-12.9338 3.33725 -20.7324" yaw="1.95919e-005" pitch="85.0" roll="-90.0" min="2.3854 -1.90735e-006 2.88018" max="-2.3854 10.6313 -2.88017" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cylinder01" core="Cylinder01" pos="28.1377 1.19639 -0.388018" yaw="89.5" pitch="1.70755e-006" roll="-90.0" min="-0.344129 9.10137 0.260681" max="0.344129 0.000692368 -0.260681" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cylinder02" core="Cylinder02" pos="28.0166 1.19639 3.08709" yaw="89.5" pitch="1.70755e-006" roll="-90.0" min="-0.344129 9.10137 0.260681" max="0.344129 0.000696182 -0.260681" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cylinder03" core="Cylinder03" pos="28.5881 1.19639 -8.2971" yaw="89.5" pitch="1.70755e-006" roll="-90.0" min="-0.344129 9.10137 0.260681" max="0.344129 0.000692368 -0.260681" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cylinder04" core="Cylinder04" pos="28.3977 1.19639 -4.06709" yaw="89.5" pitch="1.70755e-006" roll="-90.0" min="-0.344129 9.10137 0.260681" max="0.344129 0.000694275 -0.260681" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cone03" core="Cone03" pos="30.0706 0.883019 9.32065" yaw="0.0" pitch="0.0" roll="0.0" min="-0.618637 0.0 -0.618637" max="0.618637 4.1104 0.618637" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cone01" core="Cone01" pos="4.90763 0.883019 19.4939" yaw="0.0" pitch="0.0" roll="0.0" min="-0.618637 0.0 -0.618637" max="0.618637 4.1104 0.618637" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cone04" core="Cone04" pos="-9.95348 0.883019 19.4244" yaw="0.0" pitch="0.0" roll="0.0" min="-0.618637 0.0 -0.618637" max="0.618637 4.1104 0.618637" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Cone05" core="Cone05" pos="-19.7365 0.883019 9.47044" yaw="0.0" pitch="0.0" roll="0.0" min="-0.618637 0.0 -0.618637" max="0.618637 4.1104 0.618637" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box09" core="Box09" pos="5.49501 0.883019 39.1702" yaw="0.0" pitch="0.0" roll="0.0" min="-45.0259 0.0 -0.140827" max="45.0259 21.6496 0.140827" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box10" core="Box10" pos="-40.4166 0.883019 -9.05929" yaw="0.0" pitch="0.0" roll="0.0" min="-0.178463 0.0 -47.54" max="0.178463 23.5302 47.54" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box11" core="Box11" pos="5.08023 0.883019 -58.455" yaw="0.0" pitch="0.0" roll="0.0" min="-44.8358 0.0 -0.48127" max="44.8358 19.1126 0.48127" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box12" core="Box12" pos="51.4054 0.883019 -9.52757" yaw="0.0" pitch="0.0" roll="0.0" min="-0.382248 0.0 -47.6513" max="0.382248 20.572 47.6513" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="esfera2" core="esfera2" pos="23.8745 0.0 -32.5995" yaw="0.0" pitch="0.0" roll="0.0" min="-1.63806 -1.63806 -1.63806" max="0.0f" density="0.0" angularDamping="0.0" type="2"  />
+	<object name="esfera4" core="esfera4" pos="32.7942 0.0 -29.6024" yaw="0.0" pitch="0.0" roll="0.0" min="-0.887194 -0.887195 -0.887196" max="0.0f" density="0.0" angularDamping="0.0" type="8"  />
+	<object name="esfera1" core="esfera1" pos="13.2552 0.0 -24.842" yaw="0.0" pitch="0.0" roll="0.0" min="-0.969903 -0.969903 -0.969904" max="0.0f" density="0.0" angularDamping="0.0" type="2"  />
+	<object name="esfera3" core="esfera3" pos="22.7852 0.0 -22.7235" yaw="0.0" pitch="0.0" roll="0.0" min="-0.548706 -0.548705 -0.548706" max="0.0f" density="0.0" angularDamping="0.0" type="2"  />
+	<object name="cilindro1" core="cilindro1" pos="19.4629 0.0 -36.1487" yaw="0.0" pitch="0.0" roll="0.0" min="-0.984762 0.0 -0.969803" max="0.984762 4.33023 0.969803" density="0.0" angularDamping="0.0" type="4"  />
+	<object name="cilindro2" core="cilindro2" pos="33.0577 0.0 -20.3441" yaw="0.0" pitch="0.0" roll="0.0" min="-0.51025 0.0 -0.502497" max="0.51025 5.6712 0.502497" density="0.0" angularDamping="0.0" type="4"  />
+	<object name="cilindro3" core="cilindro3" pos="32.886 0.0 -15.154" yaw="0.0" pitch="0.0" roll="0.0" min="-1.0999 0.0 -1.08319" max="1.0999 3.1154 1.08319" density="0.0" angularDamping="0.0" type="4"  />
+	<object name="SUELO AREA 1" core="SUELO AREA 1" pos="0.0 -17.0 0.0" yaw="0.0" pitch="0.0" roll="0.0" min="-19.8 -20.0 -17.8324" max="31.5509 6.51454 19.4656" density="0.0" angularDamping="0.0" type="8" /> 
+	<object name="Plane01_fbp" core="Plane01_fbp" pos="-0.744202 0.883019 -1.87614" yaw="0.0" pitch="0.0" roll="0.0" min="-69.3115 0.0 -70.2941" max="69.3115 0.5 70.2941" density="0.0" angularDamping="0.0" type="1"  />
+</renderable_objs>

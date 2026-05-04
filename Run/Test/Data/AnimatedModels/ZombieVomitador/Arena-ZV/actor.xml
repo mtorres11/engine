@@ -1,0 +1,7 @@
+<actor name="arenazombievomitador" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DTechnique">
+	<skeleton filename="arena_skeleton.CSF"/>
+	<mesh filename="arena_mesh.CMF"/>
+	<texture filename="diuse_arena_vomitador.dds"/>
+	<animation name="arena_animation_salida" filename="arena_animation_salida.CAF"/>
+	<animation name="arena_animation_aparicion" filename="arena_animation_aparicion.CAF"/>
+</actor>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<renderable_objs>
+	<object name="sky box" core="sky box" pos="38.8923 0.0 3.40008e-006" yaw="-2.00358e-005" pitch="0.0" roll="180.0" min="115.896 20.0 115.896" max="-115.896 -118.015 -115.896" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="mesh_colisioncoliseo_no_visible" core="mesh_colisioncoliseo_no_visible" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="12.6132 -0.126385 12.6188" max="-12.5401 2.00047 -12.5925" visible="true" type="8" density="0.0" angularDamping="0.5"  />
+	
+	<object name="arena" core="arena" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="17.9944 -0.126385 17.9972" max="-17.9944 0.848003 -17.9972" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="primer circulo" core="primer circulo" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="18.2896 -0.0680064 18.2925" max="-18.2896 7.10047 -1.5531" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="primer circulo tribuna" core="primer circulo tribuna" pos="1.29542 0.262001 -0.794269" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="16.9942 -0.271309 2.34634" max="-19.585 6.82869 -17.4982" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="group entradas y cartel" core="group entradas y cartel" pos="0.223354 5.71648 1.56446" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="17.9116 -5.7258 0.153762" max="-18.3909 5.72578 -19.7287" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="ascensor" core="ascensor" pos="0.044132 2.69293 13.6026" yaw="-90.0" pitch="0.0" roll="0.0" min="1.3421 -2.63659 5.19232" max="-2.72686 7.9627 -1.72972" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="entrada gradas ESTE" core="entrada gradas ESTE" pos="7.31202 14.5478 30.1605" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="24.2268 -9.53674e-007 0.66741" max="-1.44856 3.49556 -61.0645" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="entrada gradas OESTE" core="entrada gradas OESTE" pos="-7.37968 14.5478 -30.2311" yaw="1.00179e-005" pitch="0.0" roll="0.0" min="1.5452 -9.53674e-007 61.0665" max="-24.1609 3.49556 -0.669462" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas BAJAS NOR_OESTE" core="gradas BAJAS NOR_OESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="-1.49802 2.60804 31.8656" max="-31.8726 15.7883 1.1977" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas BAJAS NOR-ESTE" core="gradas BAJAS NOR-ESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="32.2107 2.60804 32.2033" max="-2.93672 16.1004 1.1977" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas BAJAS SUR-OESTE " core="gradas BAJAS SUR-OESTE " pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="-1.51881 2.30873 2.85714" max="-32.0397 16.0298 -31.8651" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas BAjAS SUR-ESTE" core="gradas BAjAS SUR-ESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="32.2107 2.30873 2.89067" max="-2.9623 16.1004 -32.2027" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas ALTAS NOR-ESTE" core="gradas ALTAS NOR-ESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="44.5065 13.0102 44.4792" max="-4.38248 31.6504 0.802567" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas ALTAS NOR_OESTE" core="gradas ALTAS NOR_OESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="-2.89975 12.6602 44.4792" max="-44.5065 31.6504 0.802567" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas ALTAS SUR-ESTE" core="gradas ALTAS SUR-ESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="44.5065 13.0102 15.3701" max="-4.41244 31.6504 -44.4782" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="gradas ALTAS SUR-OESTE" core="gradas ALTAS SUR-OESTE" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="-2.92521 12.6602 15.3701" max="-44.5065 31.6504 -44.4782" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="entradas OESTE" core="entradas OESTE" pos="-12.1327 0.24088 -1.58922" yaw="-1.36649e-006" pitch="-5.00896e-006" roll="5.00896e-006" min="0.376082 -0.290537 4.76051" max="-0.375146 5.60172 -1.63056" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="Entrada ESTE" core="Entrada ESTE" pos="12.1438 0.0362467 1.59886" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="0.446646 -0.0859026 1.63057" max="-0.374192 5.80636 -4.7606" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="eNTRADA sur" core="eNTRADA sur" pos="1.5603 0.0880509 -12.1543" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="1.63056 -0.137707 0.375147" max="-4.76051 5.75455 -0.415284" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	
+	<object name="Group tribuna" core="Group tribuna" pos="-12.5282 2.8903 -8.30167" yaw="-55.0" pitch="0.0" roll="0.0" min="2.20132 -2.76317 3.07572" max="-2.20131 5.98716 -3.07572" visible="true" type="32" density="0.0" angularDamping="0.5"  />	
+	<object name="pinaculosNOR-OESTE" core="pinaculosNOR-OESTE" pos="-26.5966 26.1377 22.3388" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="22.208 -1.67622 16.4192" max="-11.9591 1.67623 -17.086" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="pinaculos SUR-OESTE" core="pinaculos SUR-OESTE" pos="-23.4011 26.2552 -18.7395" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="19.0726 -1.78017 21.1796" max="-15.5949 1.78017 -19.9807" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="pinaculos SU-ESTE" core="pinaculos SU-ESTE" pos="25.3776 26.1565 -17.4944" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="13.6108 -1.65747 19.9094" max="-20.9965 1.65746 -21.2896" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="pinaculos NO0R-ESTE" core="pinaculos NO0R-ESTE" pos="21.9044 26.2552 26.6103" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="16.6431 -1.78017 12.0839" max="-17.6066 1.78017 -21.4518" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="pequena SU-OESTE" core="pequena SU-OESTE" pos="-21.7287 23.053 -18.141" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="17.5637 -1.14613 20.7914" max="-17.5096 1.14614 -20.8723" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="pequena NOR-ESTE" core="pequena NOR-ESTE" pos="20.8455 23.053 25.1981" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="16.6424 -1.14614 13.7977" max="-16.6683 1.14614 -13.7132" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="pequena NOR-OESTE" core="pequena NOR-OESTE" pos="-21.4352 23.053 22.0072" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="17.3441 -1.14617 16.9865" max="-17.4431 1.14614 -17.0581" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="columna SUR OESTE" core="columna SUR OESTE" pos="-18.5934 26.9337 -19.992" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="23.0366 -3.63358 20.7562" max="-22.5592 3.63358 -21.2526" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="columna NOR-OESTE" core="columna NOR-OESTE" pos="-20.3561 26.9337 22.2034" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="20.7582 -3.63357 19.045" max="-20.7922 3.63357 -19.08" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="columna NOR-ESTE" core="columna NOR-ESTE" pos="22.04 26.9337 22.0096" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="18.889 -3.63358 18.7334" max="-18.9827 3.63358 -18.8704" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="columna SUR-ESTE" core="columna SUR-ESTE" pos="24.0177 26.9337 -19.8313" yaw="-5.00896e-006" pitch="-5.00896e-006" roll="5.00896e-006" min="17.1384 -3.63358 20.5391" max="-17.0253 3.63357 -20.4604" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="ENTRADAS ATAUD" core="ENTRADAS ATAUD" pos="0.0776691 23.4444 -0.0347938" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="38.1068 -2.13794 32.9307" max="-38.2377 2.13794 -32.9055" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	
+	<object name="GlowStar" core="GlowStar" pos="1.18419 9.27894 15.9571" yaw="-0.0" pitch="0.0" roll="0.0" min="0.0 0.0 0.0" max="0.0 0.0 0.0" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	
+	<animated_model name="mi_amigo" core="bot" pos="-8.3 1.31 0.0" yaw="-90.0" pitch="0.0" roll="0.0" scalex="0.88" scaley="0.88" scalez="0.88"/>
+	<!--<animated_model name="lanza" core="lanza" pos="5.0 5.5 -3.8" yaw="0.0" pitch="0.0" roll="0.0"/>-->
+	<animated_model name="pierna" core="pierna" pos="-0.374 5.771 13.322" yaw="180.0" pitch="0.0" roll="0.0" />	
+	
+	<!--<animated_model name="zombiecoliseo1" core="zombiecoliseo1" pos="-4.48056 1.7005 -12.598" yaw="-11.0" pitch="0.0" roll="0.0" />-->
+	<animated_model name="zombiecoliseo1" core="zombiecoliseo1" pos="0.0 0.0 0.0" yaw="0.0" pitch="0.0" roll="0.0" />
+	<animated_model name="zombiecoliseo2" core="zombiecoliseo2" pos="0.0 0.0 0.0" yaw="0.0" pitch="0.0" roll="0.0" />
+	<animated_model name="zombiecoliseo3" core="zombiecoliseo3" pos="0.0 0.0 0.0" yaw="0.0" pitch="0.0" roll="0.0" />
+	<animated_model name="zombiecoliseo4" core="zombiecoliseo4" pos="0.0 0.0 0.0" yaw="0.0" pitch="0.0" roll="0.0" />
+	
+	<object name="ALPHAS" core="ALPHAS" pos="0.0 -0.00978279 0.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="18.1522 -0.0528355 18.155" max="-18.1522 8.4933 -18.1549" visible="true" type="32" density="0.0" angularDamping="0.5"  />	
+</renderable_objs>

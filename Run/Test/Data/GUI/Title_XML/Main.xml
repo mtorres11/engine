@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 30pfs Para 400 cuadros seran 0.03-->
+<Windows OnLoadWindows="_soundM:play_sound('Intro')
+                        _guiM:play_image('logo',0.0666,true)"
+         OnSaveWindows=""
+         OnUpdateWindows="">
+
+	<Image name="main_fondo" posx="0.00" posy="0.00" height="100.00" width="100.00" visible="true" active="true"
+         default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+		<texture name="img1" name_texture="Data/GUI/Textures/Game/TitleScreen/fondo.jpg"/>
+	</Image>
+
+
+	<Image name="logo" posx="55.5" posy="4.00" height="40.33" width="43.125" visible="true" active="true"
+        default="1"
+        OnLoadValue=""
+        OnSaveValue=""
+        flip="" backGround="false">
+		<texture name="1" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0001.png"/>
+		<texture name="2" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0002.png"/>
+		<texture name="3" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0003.png"/>
+		<texture name="4" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0004.png"/>
+		<texture name="5" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0005.png"/>
+		<texture name="6" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0006.png"/>
+		<texture name="7" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0007.png"/>
+		<texture name="8" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0008.png"/>
+		<texture name="9" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0009.png"/>
+		<texture name="10" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0010.png"/>
+		<texture name="11" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0011.png"/>
+		<texture name="12" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0012.png"/>
+		<texture name="13" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0013.png"/>
+		<texture name="14" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0014.png"/>
+		<texture name="15" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0015.png"/>
+		<texture name="16" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0016.png"/>
+		<texture name="17" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0017.png"/>
+		<texture name="18" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0018.png"/>
+		<texture name="19" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0019.png"/>
+		<texture name="20" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0020.png"/>
+		<texture name="21" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0021.png"/>
+		<texture name="22" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0022.png"/>
+		<texture name="23" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0023.png"/>
+		<texture name="24" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0024.png"/>
+		<texture name="25" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0025.png"/>
+		<texture name="26" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0026.png"/>
+		<texture name="27" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0027.png"/>
+		<texture name="28" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0028.png"/>
+		<texture name="29" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0029.png"/>
+		<texture name="30" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0030.png"/>
+		<texture name="31" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0031.png"/>
+		<texture name="32" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0032.png"/>
+		<texture name="33" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0033.png"/>
+		<texture name="34" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0034.png"/>
+		<texture name="35" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0035.png"/>
+		<texture name="36" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0036.png"/>
+		<texture name="37" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0037.png"/>
+		<texture name="38" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0038.png"/>
+		<texture name="39" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0039.png"/>
+		<texture name="40" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedLogo/logo en llamas0040.png"/>
+	</Image>
+<!--
+  <Image name="main_fondo" posx="0.00" posy="0.00" height="100.00" width="100.00" visible="true" active="true"
+        default="0"
+        OnLoadValue=""
+        OnSaveValue=""
+        flip="" backGround="false">
+    <texture name="0" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0000.jpg"/>
+    <texture name="1" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0001.jpg"/>
+    <texture name="2" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0002.jpg"/>
+    <texture name="3" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0003.jpg"/>
+    <texture name="4" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0004.jpg"/>
+    <texture name="5" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0005.jpg"/>
+    <texture name="6" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0006.jpg"/>
+    <texture name="7" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0007.jpg"/>
+    <texture name="8" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0008.jpg"/>
+    <texture name="9" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0009.jpg"/>
+    <texture name="10" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0010.jpg"/>
+    <texture name="11" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0011.jpg"/>
+    <texture name="12" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0012.jpg"/>
+    <texture name="13" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0013.jpg"/>
+    <texture name="14" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0014.jpg"/>
+    <texture name="15" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0015.jpg"/>
+    <texture name="16" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0016.jpg"/>
+    <texture name="17" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0017.jpg"/>
+    <texture name="18" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0018.jpg"/>
+    <texture name="19" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0019.jpg"/>
+    <texture name="20" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0020.jpg"/>
+    <texture name="21" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0021.jpg"/>
+    <texture name="22" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0022.jpg"/>
+    <texture name="23" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0023.jpg"/>
+    <texture name="24" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0024.jpg"/>
+    <texture name="25" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0025.jpg"/>
+    <texture name="26" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0026.jpg"/>
+    <texture name="27" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0027.jpg"/>
+    <texture name="28" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0028.jpg"/>
+    <texture name="29" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0029.jpg"/>
+    <texture name="30" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0030.jpg"/>
+    <texture name="31" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0031.jpg"/>
+    <texture name="32" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0032.jpg"/>
+    <texture name="33" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0033.jpg"/>
+    <texture name="34" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0034.jpg"/>
+    <texture name="35" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0035.jpg"/>
+    <texture name="36" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0036.jpg"/>
+    <texture name="37" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0037.jpg"/>
+    <texture name="38" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0038.jpg"/>
+    <texture name="39" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0039.jpg"/>
+    <texture name="40" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0040.jpg"/>
+    <texture name="41" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0041.jpg"/>
+    <texture name="42" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0042.jpg"/>
+    <texture name="43" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0043.jpg"/>
+    <texture name="44" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0044.jpg"/>
+    <texture name="45" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0045.jpg"/>
+    <texture name="46" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0046.jpg"/>
+    <texture name="47" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0047.jpg"/>
+    <texture name="48" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0048.jpg"/>
+    <texture name="49" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0049.jpg"/>
+    <texture name="50" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0050.jpg"/>
+    <texture name="51" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0051.jpg"/>
+    <texture name="52" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0052.jpg"/>
+    <texture name="53" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0053.jpg"/>
+    <texture name="54" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0054.jpg"/>
+    <texture name="55" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0055.jpg"/>
+    <texture name="56" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0056.jpg"/>
+    <texture name="57" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0057.jpg"/>
+    <texture name="58" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0058.jpg"/>
+    <texture name="59" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0059.jpg"/>
+    <texture name="60" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0060.jpg"/>
+    <texture name="61" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0061.jpg"/>
+    <texture name="62" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0062.jpg"/>
+    <texture name="63" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0063.jpg"/>
+    <texture name="64" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0064.jpg"/>
+    <texture name="65" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0065.jpg"/>
+    <texture name="66" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0066.jpg"/>
+    <texture name="67" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0067.jpg"/>
+    <texture name="68" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0068.jpg"/>
+    <texture name="69" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0069.jpg"/>
+    <texture name="70" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0070.jpg"/>
+    <texture name="71" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0071.jpg"/>
+    <texture name="72" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0072.jpg"/>
+    <texture name="73" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0073.jpg"/>
+    <texture name="74" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0074.jpg"/>
+    <texture name="75" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0075.jpg"/>
+    <texture name="76" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0076.jpg"/>
+    <texture name="77" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0077.jpg"/>
+    <texture name="78" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0078.jpg"/>
+    <texture name="79" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0079.jpg"/>
+    <texture name="80" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0080.jpg"/>
+    <texture name="81" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0081.jpg"/>
+    <texture name="82" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0082.jpg"/>
+    <texture name="83" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0083.jpg"/>
+    <texture name="84" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0084.jpg"/>
+    <texture name="85" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0085.jpg"/>
+    <texture name="86" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0086.jpg"/>
+    <texture name="87" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0087.jpg"/>
+    <texture name="88" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0088.jpg"/>
+    <texture name="89" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0089.jpg"/>
+    <texture name="90" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0090.jpg"/>
+    <texture name="91" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0091.jpg"/>
+    <texture name="92" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0092.jpg"/>
+    <texture name="93" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0093.jpg"/>
+    <texture name="94" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0094.jpg"/>
+    <texture name="95" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0095.jpg"/>
+    <texture name="96" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0096.jpg"/>
+    <texture name="97" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0097.jpg"/>
+    <texture name="98" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0098.jpg"/>
+    <texture name="99" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0099.jpg"/>
+    <texture name="100" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0100.jpg"/>
+    <texture name="101" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0101.jpg"/>
+    <texture name="102" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0102.jpg"/>
+    <texture name="103" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0103.jpg"/>
+    <texture name="104" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0104.jpg"/>
+    <texture name="105" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0105.jpg"/>
+    <texture name="106" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0106.jpg"/>
+    <texture name="107" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0107.jpg"/>
+    <texture name="108" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0108.jpg"/>
+    <texture name="109" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0109.jpg"/>
+    <texture name="110" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0110.jpg"/>
+    <texture name="111" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0111.jpg"/>
+    <texture name="112" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0112.jpg"/>
+    <texture name="113" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0113.jpg"/>
+    <texture name="114" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0114.jpg"/>
+    <texture name="115" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0115.jpg"/>
+    <texture name="116" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0116.jpg"/>
+    <texture name="117" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0117.jpg"/>
+    <texture name="118" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0118.jpg"/>
+    <texture name="119" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0119.jpg"/>
+    <texture name="120" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0120.jpg"/>
+    <texture name="121" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0121.jpg"/>
+    <texture name="122" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0122.jpg"/>
+    <texture name="123" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0123.jpg"/>
+    <texture name="124" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0124.jpg"/>
+    <texture name="125" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0125.jpg"/>
+    <texture name="126" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0126.jpg"/>
+    <texture name="127" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0127.jpg"/>
+    <texture name="128" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0128.jpg"/>
+    <texture name="129" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0129.jpg"/>
+    <texture name="130" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0130.jpg"/>
+    <texture name="131" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0131.jpg"/>
+    <texture name="132" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0132.jpg"/>
+    <texture name="133" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0133.jpg"/>
+    <texture name="134" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0134.jpg"/>
+    <texture name="135" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0135.jpg"/>
+    <texture name="136" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0136.jpg"/>
+    <texture name="137" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0137.jpg"/>
+    <texture name="138" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0138.jpg"/>
+    <texture name="139" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0139.jpg"/>
+    <texture name="140" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0140.jpg"/>
+    <texture name="141" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0141.jpg"/>
+    <texture name="142" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0142.jpg"/>
+    <texture name="143" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0143.jpg"/>
+    <texture name="144" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0144.jpg"/>
+    <texture name="145" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0145.jpg"/>
+    <texture name="146" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0146.jpg"/>
+    <texture name="147" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0147.jpg"/>
+    <texture name="148" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0148.jpg"/>
+    <texture name="149" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0149.jpg"/>
+    <texture name="150" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0150.jpg"/>
+    <texture name="151" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0151.jpg"/>
+    <texture name="152" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0152.jpg"/>
+    <texture name="153" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0153.jpg"/>
+    <texture name="154" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0154.jpg"/>
+    <texture name="155" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0155.jpg"/>
+    <texture name="156" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0156.jpg"/>
+    <texture name="157" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0157.jpg"/>
+    <texture name="158" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0158.jpg"/>
+    <texture name="159" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0159.jpg"/>
+    <texture name="160" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0160.jpg"/>
+    <texture name="161" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0161.jpg"/>
+    <texture name="162" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0162.jpg"/>
+    <texture name="163" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0163.jpg"/>
+    <texture name="164" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0164.jpg"/>
+    <texture name="165" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0165.jpg"/>
+    <texture name="166" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0166.jpg"/>
+    <texture name="167" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0167.jpg"/>
+    <texture name="168" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0168.jpg"/>
+    <texture name="169" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0169.jpg"/>
+    <texture name="170" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0170.jpg"/>
+    <texture name="171" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0171.jpg"/>
+    <texture name="172" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0172.jpg"/>
+    <texture name="173" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0173.jpg"/>
+    <texture name="174" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0174.jpg"/>
+    <texture name="175" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0175.jpg"/>
+    <texture name="176" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0176.jpg"/>
+    <texture name="177" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0177.jpg"/>
+    <texture name="178" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0178.jpg"/>
+    <texture name="179" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0179.jpg"/>
+    <texture name="180" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0180.jpg"/>
+    <texture name="181" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0181.jpg"/>
+    <texture name="182" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0182.jpg"/>
+    <texture name="183" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0183.jpg"/>
+    <texture name="184" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0184.jpg"/>
+    <texture name="185" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0185.jpg"/>
+    <texture name="186" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0186.jpg"/>
+    <texture name="187" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0187.jpg"/>
+    <texture name="188" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0188.jpg"/>
+    <texture name="189" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0189.jpg"/>
+    <texture name="190" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0190.jpg"/>
+    <texture name="191" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0191.jpg"/>
+    <texture name="192" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0192.jpg"/>
+    <texture name="193" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0193.jpg"/>
+    <texture name="194" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0194.jpg"/>
+    <texture name="195" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0195.jpg"/>
+    <texture name="196" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0196.jpg"/>
+    <texture name="197" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0197.jpg"/>
+    <texture name="198" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0198.jpg"/>
+    <texture name="199" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0199.jpg"/>
+    <texture name="200" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0200.jpg"/>
+    <texture name="201" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0201.jpg"/>
+    <texture name="202" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0202.jpg"/>
+    <texture name="203" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0203.jpg"/>
+    <texture name="204" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0204.jpg"/>
+    <texture name="205" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0205.jpg"/>
+    <texture name="206" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0206.jpg"/>
+    <texture name="207" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0207.jpg"/>
+    <texture name="208" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0208.jpg"/>
+    <texture name="209" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0209.jpg"/>
+    <texture name="210" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0210.jpg"/>
+    <texture name="211" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0211.jpg"/>
+    <texture name="212" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0212.jpg"/>
+    <texture name="213" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0213.jpg"/>
+    <texture name="214" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0214.jpg"/>
+    <texture name="215" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0215.jpg"/>
+    <texture name="216" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0216.jpg"/>
+    <texture name="217" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0217.jpg"/>
+    <texture name="218" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0218.jpg"/>
+    <texture name="219" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0219.jpg"/>
+    <texture name="220" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0220.jpg"/>
+    <texture name="221" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0221.jpg"/>
+    <texture name="222" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0222.jpg"/>
+    <texture name="223" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0223.jpg"/>
+    <texture name="224" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0224.jpg"/>
+    <texture name="225" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0225.jpg"/>
+    <texture name="226" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0226.jpg"/>
+    <texture name="227" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0227.jpg"/>
+    <texture name="228" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0228.jpg"/>
+    <texture name="229" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0229.jpg"/>
+    <texture name="230" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0230.jpg"/>
+    <texture name="231" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0231.jpg"/>
+    <texture name="232" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0232.jpg"/>
+    <texture name="233" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0233.jpg"/>
+    <texture name="234" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0234.jpg"/>
+    <texture name="235" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0235.jpg"/>
+    <texture name="236" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0236.jpg"/>
+    <texture name="237" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0237.jpg"/>
+    <texture name="238" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0238.jpg"/>
+    <texture name="239" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0239.jpg"/>
+    <texture name="240" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0240.jpg"/>
+    <texture name="241" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0241.jpg"/>
+    <texture name="242" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0242.jpg"/>
+    <texture name="243" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0243.jpg"/>
+    <texture name="244" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0244.jpg"/>
+    <texture name="245" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0245.jpg"/>
+    <texture name="246" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0246.jpg"/>
+    <texture name="247" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0247.jpg"/>
+    <texture name="248" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0248.jpg"/>
+    <texture name="249" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0249.jpg"/>
+    <texture name="250" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0250.jpg"/>
+    <texture name="251" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0251.jpg"/>
+    <texture name="252" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0252.jpg"/>
+    <texture name="253" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0253.jpg"/>
+    <texture name="254" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0254.jpg"/>
+    <texture name="255" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0255.jpg"/>
+    <texture name="256" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0256.jpg"/>
+    <texture name="257" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0257.jpg"/>
+    <texture name="258" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0258.jpg"/>
+    <texture name="259" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0259.jpg"/>
+    <texture name="260" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0260.jpg"/>
+    <texture name="261" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0261.jpg"/>
+    <texture name="262" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0262.jpg"/>
+    <texture name="263" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0263.jpg"/>
+    <texture name="264" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0264.jpg"/>
+    <texture name="265" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0265.jpg"/>
+    <texture name="266" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0266.jpg"/>
+    <texture name="267" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0267.jpg"/>
+    <texture name="268" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0268.jpg"/>
+    <texture name="269" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0269.jpg"/>
+    <texture name="270" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0270.jpg"/>
+    <texture name="271" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0271.jpg"/>
+    <texture name="272" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0272.jpg"/>
+    <texture name="273" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0273.jpg"/>
+    <texture name="274" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0274.jpg"/>
+    <texture name="275" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0275.jpg"/>
+    <texture name="276" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0276.jpg"/>
+    <texture name="277" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0277.jpg"/>
+    <texture name="278" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0278.jpg"/>
+    <texture name="279" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0279.jpg"/>
+    <texture name="280" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0280.jpg"/>
+    <texture name="281" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0281.jpg"/>
+    <texture name="282" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0282.jpg"/>
+    <texture name="283" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0283.jpg"/>
+    <texture name="284" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0284.jpg"/>
+    <texture name="285" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0285.jpg"/>
+    <texture name="286" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0286.jpg"/>
+    <texture name="287" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0287.jpg"/>
+    <texture name="288" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0288.jpg"/>
+    <texture name="289" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0289.jpg"/>
+    <texture name="290" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0290.jpg"/>
+    <texture name="291" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0291.jpg"/>
+    <texture name="292" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0292.jpg"/>
+    <texture name="293" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0293.jpg"/>
+    <texture name="294" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0294.jpg"/>
+    <texture name="295" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0295.jpg"/>
+    <texture name="296" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0296.jpg"/>
+    <texture name="297" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0297.jpg"/>
+    <texture name="298" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0298.jpg"/>
+    <texture name="299" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0299.jpg"/>
+    <texture name="300" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0300.jpg"/>
+    <texture name="301" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0301.jpg"/>
+    <texture name="302" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0302.jpg"/>
+    <texture name="303" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0303.jpg"/>
+    <texture name="304" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0304.jpg"/>
+    <texture name="305" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0305.jpg"/>
+    <texture name="306" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0306.jpg"/>
+    <texture name="307" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0307.jpg"/>
+    <texture name="308" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0308.jpg"/>
+    <texture name="309" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0309.jpg"/>
+    <texture name="310" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0310.jpg"/>
+    <texture name="311" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0311.jpg"/>
+    <texture name="312" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0312.jpg"/>
+    <texture name="313" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0313.jpg"/>
+    <texture name="314" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0314.jpg"/>
+    <texture name="315" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0315.jpg"/>
+    <texture name="316" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0316.jpg"/>
+    <texture name="317" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0317.jpg"/>
+    <texture name="318" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0318.jpg"/>
+    <texture name="319" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0319.jpg"/>
+    <texture name="320" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0320.jpg"/>
+    <texture name="321" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0321.jpg"/>
+    <texture name="322" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0322.jpg"/>
+    <texture name="323" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0323.jpg"/>
+    <texture name="324" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0324.jpg"/>
+    <texture name="325" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0325.jpg"/>
+    <texture name="326" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0326.jpg"/>
+    <texture name="327" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0327.jpg"/>
+    <texture name="328" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0328.jpg"/>
+    <texture name="329" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0329.jpg"/>
+    <texture name="330" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0330.jpg"/>
+    <texture name="331" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0331.jpg"/>
+    <texture name="332" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0332.jpg"/>
+    <texture name="333" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0333.jpg"/>
+    <texture name="334" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0334.jpg"/>
+    <texture name="335" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0335.jpg"/>
+    <texture name="336" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0336.jpg"/>
+    <texture name="337" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0337.jpg"/>
+    <texture name="338" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0338.jpg"/>
+    <texture name="339" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0339.jpg"/>
+    <texture name="340" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0340.jpg"/>
+    <texture name="341" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0341.jpg"/>
+    <texture name="342" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0342.jpg"/>
+    <texture name="343" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0343.jpg"/>
+    <texture name="344" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0344.jpg"/>
+    <texture name="345" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0345.jpg"/>
+    <texture name="346" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0346.jpg"/>
+    <texture name="347" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0347.jpg"/>
+    <texture name="348" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0348.jpg"/>
+    <texture name="349" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0349.jpg"/>
+    <texture name="350" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0350.jpg"/>
+    <texture name="351" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0351.jpg"/>
+    <texture name="352" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0352.jpg"/>
+    <texture name="353" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0353.jpg"/>
+    <texture name="354" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0354.jpg"/>
+    <texture name="355" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0355.jpg"/>
+    <texture name="356" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0356.jpg"/>
+    <texture name="357" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0357.jpg"/>
+    <texture name="358" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0358.jpg"/>
+    <texture name="359" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0359.jpg"/>
+    <texture name="360" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0360.jpg"/>
+    <texture name="361" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0361.jpg"/>
+    <texture name="362" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0362.jpg"/>
+    <texture name="363" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0363.jpg"/>
+    <texture name="364" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0364.jpg"/>
+    <texture name="365" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0365.jpg"/>
+    <texture name="366" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0366.jpg"/>
+    <texture name="367" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0367.jpg"/>
+    <texture name="368" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0368.jpg"/>
+    <texture name="369" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0369.jpg"/>
+    <texture name="370" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0370.jpg"/>
+    <texture name="371" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0371.jpg"/>
+    <texture name="372" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0372.jpg"/>
+    <texture name="373" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0373.jpg"/>
+    <texture name="374" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0374.jpg"/>
+    <texture name="375" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0375.jpg"/>
+    <texture name="376" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0376.jpg"/>
+    <texture name="377" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0377.jpg"/>
+    <texture name="378" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0378.jpg"/>
+    <texture name="379" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0379.jpg"/>
+    <texture name="380" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0380.jpg"/>
+    <texture name="381" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0381.jpg"/>
+    <texture name="382" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0382.jpg"/>
+    <texture name="383" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0383.jpg"/>
+    <texture name="384" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0384.jpg"/>
+    <texture name="385" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0385.jpg"/>
+    <texture name="386" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0386.jpg"/>
+    <texture name="387" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0387.jpg"/>
+    <texture name="388" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0388.jpg"/>
+    <texture name="389" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0389.jpg"/>
+    <texture name="390" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0390.jpg"/>
+    <texture name="391" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0391.jpg"/>
+    <texture name="392" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0392.jpg"/>
+    <texture name="393" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0393.jpg"/>
+    <texture name="394" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0394.jpg"/>
+    <texture name="395" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0395.jpg"/>
+    <texture name="396" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0396.jpg"/>
+    <texture name="397" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0397.jpg"/>
+    <texture name="398" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0398.jpg"/>
+    <texture name="399" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0399.jpg"/>
+    <texture name="400" name_texture="Data/GUI/Textures/Game/TitleScreen/AnimatedBG/prueba0400.jpg"/>
+  </Image>
+
+
+
+
+  <Image name="Title" posx="0.0" posy="0.00" height="39.83" width="41.5" visible="true" active="true"
+			default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="Data/GUI/Textures/Game/TitleScreen/logo menu.png"/>
+  </Image>
+
+  <Image name="OptionsBG" posx="78.17" posy="66.50" height="34" width="22.5" visible="true" active="true"
+			default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="Data/GUI/Textures/Game/TitleScreen/pergamino menu.png"/>
+  </Image>
+-->
+  <!--<StaticText name="Lbl_Play" posx="84.75" posy="74.00" height="8.33" width="9.62" visible="true" active="true"
+			Literal="Lbl_Play" />
+  <StaticText name="Lbl_Exit" posx="85.25" posy="83.83" height="8.17" width="8.38" visible="true" active="true"
+			Literal="Lbl_Exit" />-->
+
+  <Button name="Btn_Play" posx="65.375" posy="45.83" height="8.0" width="17.75" visible="true" active="true"
+          texture_normal="Data/GUI/Textures/Game/TitleScreen/bnt_play/jugar_unselected.png"
+          texture_over="Data/GUI/Textures/Game/TitleScreen/bnt_play/jugar_selected.png"
+          texture_clicked="Data/GUI/Textures/Game/TitleScreen/bnt_play/jugar_selected.png"
+          texture_deactivated="Data/GUI/Textures/Game/TitleScreen/bnt_play/jugar_unselected.png"
+          OnClickedAction="_soundM:play_sound('z_groan1')
+							_guiM:set_visible_pointer_mouse(false)
+							_guiM:active_windows('Loading.xml')"
+          OnOverAction=""/>
+
+  <Button name="Btn_Ctrl" posx="60.375" posy="54.17" height="8.0" width="26.875" visible="true" active="true"
+          texture_normal="Data/GUI/Textures/Game/TitleScreen/btn_ctrl/controles_unselected.png"
+          texture_over="Data/GUI/Textures/Game/TitleScreen/btn_ctrl/controles_selected.png"
+          texture_clicked="Data/GUI/Textures/Game/TitleScreen/btn_ctrl/controles_selected.png"
+          texture_deactivated="Data/GUI/Textures/Game/TitleScreen/btn_ctrl/controles_unselected.png"
+          OnClickedAction="_soundM:play_sound('button')
+							_guiM:active_windows('Controls.xml')
+							"
+          OnOverAction=""/>
+
+  <Button name="Btn_Credits" posx="61.375" posy="62.5" height="8.0" width="24.375" visible="true" active="true"
+          texture_normal="Data/GUI/Textures/Game/TitleScreen/btn_credits/creditos_unselected.png"
+          texture_over="Data/GUI/Textures/Game/TitleScreen/btn_credits/creditos_selected.png"
+          texture_clicked="Data/GUI/Textures/Game/TitleScreen/btn_credits/creditos_selected.png"
+          texture_deactivated="Data/GUI/Textures/Game/TitleScreen/btn_credits/creditos_unselected.png"
+          OnClickedAction="_soundM:play_sound('button')
+							_guiM:active_windows('Credits.xml')
+							"
+          OnOverAction=""/>
+
+  <Button name="Btn_Exit" posx="65.125" posy="71.00" height="8.0" width="17.25" visible="true" active="true"
+          texture_normal="Data/GUI/Textures/Game/TitleScreen/btn_exit/salir_unselected.png"
+          texture_over="Data/GUI/Textures/Game/TitleScreen/btn_exit/salir_selected.png"
+          texture_clicked="Data/GUI/Textures/Game/TitleScreen/btn_exit/salir_selected.png"
+          texture_deactivated="Data/GUI/Textures/Game/TitleScreen/btn_exit/salir_unselected.png"
+          OnClickedAction="_soundM:play_sound('button')
+							_guiM:active_windows('Exit.xml')"
+          OnOverAction=""/>
+  
+  <!--<Button name="Play" posx="84.75" posy="74.00" height="8.33" width="9.62" visible="false" active="true"
+          texture_normal="./Data/GUI/GUI_Hito/play.png"
+          texture_over="./Data/GUI/GUI_Hito/play_mouseover.png"
+          texture_clicked="./Data/GUI/GUI_Hito/play_mouseover.png"
+          texture_deactivated="./Data/GUI/GUI_Hito/play.png"
+          OnClickedAction="_soundM:play_sound('z_groan1')
+							_guiM:set_visible_pointer_mouse(false)
+							_guiM:active_windows('Loading.xml')"
+          OnOverAction=""/>
+
+  <Button name="Exit" posx="85.25" posy="83.83" height="8.17" width="8.38" visible="false" active="true"
+          texture_normal="./Data/GUI/GUI_Hito/exit.png"
+          texture_over="./Data/GUI/GUI_Hito/exit_mouseover.png"
+          texture_clicked="./Data/GUI/GUI_Hito/exit_mouseover.png"
+          texture_deactivated="./Data/GUI/GUI_Hito/exit.png"
+          OnClickedAction="_soundM:play_sound('button')
+							_guiM:active_windows('Exit.xml')"
+          OnOverAction=""/>-->
+
+  <!--<StaticText name="ControlFront" posx="65.00" posy="35.00" height="30" width="30" visible="true" active="true"
+			Literal="ControlFront" />
+	<StaticText name="ControlRight" posx="65.00" posy="40.00" height="30" width="30" visible="true" active="true"
+			Literal="ControlRight" />
+	<StaticText name="ControlBack" posx="65.00" posy="45.00" height="30" width="30" visible="true" active="true"
+			Literal="ControlBack" />
+	<StaticText name="ControlLeft" posx="65.00" posy="50.00" height="30" width="30" visible="true" active="true"
+			Literal="ControlLeft" />
+	<StaticText name="ControlExit" posx="65.00" posy="55.00" height="30" width="30" visible="true" active="true"
+			Literal="ControlExit" />
+	<StaticText name="ControlCamera" posx="65.00" posy="60.00" height="30" width="30" visible="true" active="true"
+			Literal="ControlCamera" />-->
+	
+</Windows>

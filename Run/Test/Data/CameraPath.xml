@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<camera_key_controller name="Camera01">
+	<key time="0.0" pos="2.20113 15.0935 -4.34392" yaw="0.0" pitch="-55.0" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="1.0" pos="2.20113 15.0935 -4.34392" yaw="0.0" pitch="-55.0" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="2.26667" pos="8.25735 4.08078 -3.72724" yaw="0.0" pitch="-5.0" roll="1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="2.56667" pos="11.1355 3.23417 -3.71483" yaw="0.0" pitch="-5.0" roll="1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="3.33333" pos="19.5782 3.54207 -4.61848" yaw="0.0" pitch="-5.0" roll="1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="4.46667" pos="33.2374 4.79178 -0.737211" yaw="0.0" pitch="-5.0" roll="1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="5.2" pos="41.2354 3.0169 -1.68471" yaw="0.0" pitch="-5.0" roll="1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="5.86667" pos="47.8922 2.76232 -2.87398" yaw="7.62939e-006" pitch="0.0" roll="0.0" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="6.53333" pos="51.74 1.39992 -2.87398" yaw="0.0" pitch="9.18938" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="7.0" pos="51.968 1.26786 -2.87398" yaw="7.62939e-006" pitch="9.99999" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="8.5" pos="2.20113 15.0935 -4.34392" yaw="0.0" pitch="-5.0" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="9.1" pos="-2.20113 7.0935 -4.34392" yaw="0.0" pitch="-5.0" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="10" pos="0.30036378 4.7457539 -2.8000000" yaw="0.0" pitch="-0.38999999" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="11.7" pos="3.0 4.025 -2.8" yaw="0.0" pitch="-0.38999999" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+	<key time="13" pos="3.0 4.025 -2.8" yaw="0.0" pitch="-0.38999999" roll="-1.70755e-006" fov="45.0" near_plane="1.0" far_plane="1000.0"/>
+
+</camera_key_controller>

@@ -1,0 +1,9 @@
+<actor name="palanca" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="cal3dTechnique">
+	<skeleton filename="palanca_skeleton.CSF"/>
+	<mesh filename="palanca_mesh.CMF"/>
+	<texture filename="palanca.dds"/>
+  <!--No animada-->
+  <animation name="palanca_idle" filename="palanca_animation.CAF"/>
+  <!--Animada-->
+  <animation name="palanca_animada" filename="palanca_animation1.CAF"/>
+</actor>

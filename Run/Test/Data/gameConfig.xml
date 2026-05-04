@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Params>
+  <camera yawFactor="0.18" pitchFactor="0.18" pitchUpperLimit="0.5" pitchLowerLimit="-1.5" />
+</Params>

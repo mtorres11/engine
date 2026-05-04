@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<animated_model name="zombiecoliseo2" >
+	
+	<!--Gradas Bajas Pierna Diabla Lado Izq-->
+	<instance pos="-3.01723 3.09099 14.0941" yaw="60.0" pitch="0.0" roll="0.0" />
+	<instance pos="-6.57654 5.57541 15.9144" yaw="60.0" pitch="0.0" roll="0.0" />
+	<instance pos="-2.7812 4.38225 15.2423" yaw="60.0" pitch="0.0" roll="0.0" />
+	<instance pos="-10.5501 3.0017 10.3408" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-13.3978 5.85245 8.45718" yaw="90.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas Pierna Diabla Lado Der-->
+	<instance pos="9.01953 1.70311 10.2429" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="22.8031 10.4826 13.3514" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="8.80546 5.686 13.7601" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="15.1341 5.68298 3.42256" yaw="180.0" pitch="0.0" roll="0.0" />	
+	<instance pos="14.0245 4.37122 6.85456" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="24.3963 10.5341 7.06736" yaw="180.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas McDonald's-->
+	<instance pos="12.108 4.276 -9.635" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="18.9426 5.57576 -4.78353" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="10.9502 1.77928 -7.60952" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="4.63033 3.14984 -13.8002" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="8.20256 5.5741 -14.5883" yaw="150.0" pitch="0.0" roll="0.0" />
+		
+	<!--Gradas Bajas Tribuna-->
+	<instance pos="-5.94721 2.97909 -13.592" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-5.94721 4.57711 -14.3325" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-9.28524 1.7005 -10.2881" yaw="265.0" pitch="0.0" roll="0.0" />
+	<instance pos="-2.53245 5.61017 -15.8181" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-19.7071 10.5077 -17.5206" yaw="265.0" pitch="0.0" roll="0.0" />
+	<instance pos="-7.65963 4.04059 -12.598" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-5.89176 1.7005 -12.2369" yaw="0.0" pitch="0.0" roll="0.0" />
+	
+</animated_model>

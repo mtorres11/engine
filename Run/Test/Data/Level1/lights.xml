@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<lights>
+  
+  <light name ="ANTORCHA" type="omni" pos="14.216949 2.951538 -3.463089" color="0.8431 0.2784 0.0" multiplier="0.5" att_start_range="2.34" att_end_range="7.933" enable="true">
+	<effect type="1" max="0.5" min="0.35" fps="30.0" numframes="10" />
+  </light>
+  <light name ="LAVA" type="omni" pos="22.179607 2.951538 13.286007" color="1.0 0.0706 0.0" multiplier="0.3" att_start_range="2.34" att_end_range="4.99" enable="false">
+	<effect type="1" max="0.4" min="0.2" fps="30.0" numframes="30" />
+  </light>
+  <light name ="AMBIENTE" type="omni" pos="37.984406 10.039551 -5.608353" color="0.7765 0.6235 0.8627" multiplier="0.6" att_start_range="12.0" att_end_range="30.76" enable="true"/>
+  <light name ="ESPIRITU" type="omni" pos="18.939087 2.951538 -20.428276" color="0.0 0.8627 0.8314" multiplier="0.3" att_start_range="2.34" att_end_range="4.99" enable="true"/>
+  <light name ="MUERTE" type="omni" pos="-18.402222 0.937055 6.556000" color="0.2784 0.5412 0.2784" multiplier="0.5" att_start_range="1.0" att_end_range="3.0" enable="false"/>
+  
+  <light type="ambient" color="0.4784 0.3804 0.8431" multiplier="0.4" />
+
+</lights>

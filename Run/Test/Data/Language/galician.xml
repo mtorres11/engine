@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Language id="galego">
+  <literal id="HiWorld" font="arial"  color="0.5 0.2 0.4 0.8" value="Ola Mundo"/>
+  <literal id="Name" font="arial"  color="0.5 0.2 0.4 0.8" value="Chámome Andrea."/>
+  <literal id="Exit"    font="arial"  color="0.1 0.1 0.1 0.8" value="Saír"/>
+  <literal id="Controls" font="arial" color="1.0 1.0 1.0 0.8" value="Texto para los comandos"/>
+</Language>

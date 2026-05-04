@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<renderable_objs>
+	<object name="Box01" core="Box01" pos="0.0 0.0 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+	<object name="Sphere01" core="Sphere01" pos="4.58607 0.0382271 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+	<object name="Torus01" core="Torus01" pos="8.96845 -2.28965 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+	<object name="Teapot01" core="Teapot01" pos="15.9619 -1.66341 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+</renderable_objs>

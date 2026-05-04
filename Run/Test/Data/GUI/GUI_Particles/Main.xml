@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Windows OnLoadWindows=""
+         OnSaveWindows=""
+         OnUpdateWindows="">
+  
+  <Button name="bColor1" posx="95.00" posy="5" height="4" width="4" visible="true" active="true" 
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction=""
+          OnOverAction=""/>
+  
+  <Button name="bColor2" posx="95.00" posy="14" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction=""
+          OnOverAction=""/>
+
+  <Button name="bDirection1" posx="95.00" posy="23" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction=""
+          OnOverAction=""/>
+  
+  <Button name="bDirection2" posx="95.00" posy="32" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction=""
+          OnOverAction=""/>
+
+  <Button name="bSizeMin" posx="95.00" posy="41" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_min_size(10.0)"
+          OnOverAction=""/>
+  
+  <Button name="bSizeMax" posx="95.00" posy="50" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_max_size(10.0)"
+          OnOverAction=""/>
+
+  <Button name="bLifeMin" posx="95.00" posy="59" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_min_life(0.0)"
+          OnOverAction=""/>
+
+  <Button name="bLifeMax" posx="95.00" posy="68" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_max_life(0.0)"
+          OnOverAction=""/>
+
+  <Button name="bEmitRateMin" posx="95.00" posy="77" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_min_emit_rate(1.0)"
+          OnOverAction=""/>
+
+  <Button name="bEmitRateMax" posx="95.00" posy="86" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_max_emit_rate(4.0)"
+          OnOverAction=""/>
+
+  <Button name="bTexture" posx="95.00" posy="95" height="4" width="4" visible="true" active="true"
+          texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+          texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+          texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+          texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+          OnClickedAction="_particleM:get_emitter(0):set_texture('Data/Textures/uno.jpeg')"
+          OnOverAction=""/>
+
+  <Button name="bEmitter" posx="65.00" posy="95" height="4" width="4" visible="true" active="true"
+        texture_normal="./Data/GUI/GUI_Particles/Textures/ok.png"
+        texture_over="./Data/GUI/GUI_Particles/Textures/ok2.png"
+        texture_clicked="./Data/GUI/GUI_Particles/Textures/ok3.png"
+        texture_deactivated="./Data/GUI/GUI_Particles/Textures/ok.png"
+        OnClickedAction=""
+        OnOverAction=""/>
+	  
+	<StaticText name="Color1" posx="75.00" posy="1.5" height="30" width="30" visible="true" active="true"
+			Literal="Color1" />
+	<StaticText name="Color2" posx="75.00" posy="10.5" height="30" width="30" visible="true" active="true"
+			Literal="Color2" />
+	<StaticText name="Direction1" posx="75.00" posy="19.5" height="30" width="30" visible="true" active="true"
+			Literal="Direction1" />
+	<StaticText name="Direction2" posx="75.00" posy="28.5" height="30" width="30" visible="true" active="true"
+			Literal="Direction2" />
+	<StaticText name="SizeMin" posx="75.00" posy="37.5" height="30" width="30" visible="true" active="true"
+			Literal="SizeMin" />
+	<StaticText name="SizeMax" posx="75.00" posy="46.5" height="30" width="30" visible="true" active="true"
+			Literal="SizeMax" />
+  <StaticText name="LifeMin" posx="75.00" posy="55.5" height="30" width="30" visible="true" active="true"
+    Literal="LifeMin" />
+  <StaticText name="LifeMax" posx="75.00" posy="64.5" height="30" width="30" visible="true" active="true"
+			Literal="LifeMax" />
+  <StaticText name="EmitRateMin" posx="75.00" posy="73.5" height="30" width="30" visible="true" active="true"
+    Literal="EmitRateMin" />
+  <StaticText name="EmitRateMax" posx="75.00" posy="82.5" height="30" width="30" visible="true" active="true"
+    Literal="EmitRateMax" />
+  <StaticText name="Texture" posx="75.00" posy="91.5" height="30" width="30" visible="true" active="true"
+			Literal="Texture" />
+  <StaticText name="Emitter" posx="45.00" posy="91.5" height="30" width="30" visible="true" active="true"
+    Literal="Emitter" />
+</Windows>

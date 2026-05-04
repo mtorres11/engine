@@ -1,0 +1,7 @@
+<actor name="banderola" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DTechnique">
+	<skeleton filename="banderola - hueso.CSF"/>
+	<mesh filename="banderola - mesh.CMF"/>
+	<texture filename="banderola.dds"/>
+	<animation name="banderola - animation2" filename="banderola - animation.CAF"/>
+	<animation name="banderola - animation" filename="banderola - animation.CAF"/>
+</actor>

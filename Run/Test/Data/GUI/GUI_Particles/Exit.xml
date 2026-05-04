@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Windows OnLoadWindows="" OnSaveWindows="" OnUpdateWindows="">
+
+  <Image name="mexit_fondo" posx="0.00" posy="0.00" height="100.00" width="100.00" visible="true" active="true"
+         default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="./Data/GUI/GUI_Hito/Menu.jpg"/>
+  </Image>
+
+  <Image name="exit_game" posx="33.00" posy="30.00" height="12.5" width="37.5" visible="true" active="true"
+        default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="./Data/GUI/GUI_Hito/exitgame.png"/>
+  </Image>
+  
+	<Image name="exit_barra_separadora" posx="33.00" posy="48.00" height="12.5" width="37.5" visible="true" active="true"
+			default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+		<texture name="img1" name_texture="./Data/GUI/GUI_Hito/separadora.png"/>
+	</Image>
+
+  <Button name="ExitYes" posx="37.00" posy="48.00" height="12.5" width="12.5" visible="true" 
+          active="true" 
+          texture_normal="./Data/GUI/GUI_Hito/yes.png"
+          texture_over="./Data/GUI/GUI_Hito/yes-mouseover.png" 
+          texture_clicked="./Data/GUI/GUI_Hito/yes-mouseover.png"
+          texture_deactivated="./Data/GUI/GUI_Hito/yes.png" 
+          OnClickedAction=" _core:exit()" 
+          OnOverAction=""/>
+		  
+  <Button name="ExitNot" posx="54.00" posy="48.00" height="12.5" width="12.5" visible="true" 
+          active="true"
+          texture_normal="./Data/GUI/GUI_Hito/no.png"
+          texture_over="./Data/GUI/GUI_Hito/no-mouseover.png"
+          texture_clicked="./Data/GUI/GUI_Hito/no-mouseover.png"
+          texture_deactivated="./Data/GUI/GUI_Hito/no.png" 
+          OnClickedAction=" _guiM:active_windows('Main.xml')"
+          OnOverAction=""/>
+  
+</Windows>

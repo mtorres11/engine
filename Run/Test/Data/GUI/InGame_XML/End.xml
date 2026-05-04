@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Windows OnLoadWindows="_guiM:set_visible_pointer_mouse(true)
+						_soundM:cross_fade('end', 1000)"
+		OnSaveWindows="" OnUpdateWindows="">
+
+  <Image name="GameOver_bg" posx="0.00" posy="0.00" height="100.00" width="100.00" visible="true" active="true"
+         default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="Data/GUI/Textures/Game/GameOverScreen/game over fondo.jpg"/>
+  </Image>
+
+  <Button name="Btn_Graveyard" posx="43.75" posy="43.667" height="5.333" width="24.5" visible="true" 
+          active="true" 
+          texture_normal="Data/GUI/Textures/Game/GameOverScreen/btn_graveyard/btn_cementerio.png"
+          texture_over="Data/GUI/Textures/Game/GameOverScreen/btn_graveyard/btn_cementerio_press.png" 
+          texture_clicked="Data/GUI/Textures/Game/GameOverScreen/btn_graveyard/btn_cementerio_press.png"
+          texture_deactivated="Data/GUI/Textures/Game/GameOverScreen/btn_graveyard/btn_cementerio.png" 
+          OnClickedAction=" _soundM:play_sound('button')
+							g_videogame:change_level(1)" 
+          OnOverAction=""/>
+		  
+  <Button name="Btn_Coliseum" posx="43.5" posy="48.667" height="5.333" width="16.875" visible="true" 
+          active="true"
+          texture_normal="Data/GUI/Textures/Game/GameOverScreen/btn_coliseum/btn_coliseo.png"
+          texture_over="Data/GUI/Textures/Game/GameOverScreen/btn_coliseum/btn_coliseo_press.png"
+          texture_clicked="Data/GUI/Textures/Game/GameOverScreen/btn_coliseum/btn_coliseo_press.png"
+          texture_deactivated="Data/GUI/Textures/Game/GameOverScreen/btn_coliseum/btn_coliseo.png" 
+          OnClickedAction=" _soundM:play_sound('button')
+							g_videogame:change_level(2)"
+          OnOverAction=""/>
+
+  <Button name="Btn_ExitYes" posx="44.5" posy="63.5" height="5.333" width="8.5" visible="true" 
+          active="true" 
+          texture_normal="Data/GUI/Textures/Game/GameOverScreen/btn_yes/btn_si.png"
+          texture_over="Data/GUI/Textures/Game/GameOverScreen/btn_yes/btn_si_press.png" 
+          texture_clicked="Data/GUI/Textures/Game/GameOverScreen/btn_yes/btn_si_press.png"
+          texture_deactivated="Data/GUI/Textures/Game/GameOverScreen/btn_yes/btn_si.png" 
+          OnClickedAction=" _soundM:play_sound('button')
+							_core:exit()" 
+          OnOverAction=""/>
+
+</Windows>

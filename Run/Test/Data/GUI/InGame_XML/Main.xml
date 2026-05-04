@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Windows OnLoadWindows="g_videogame:re_start()" OnSaveWindows="" OnUpdateWindows="">
+
+  <Image name="gui_blood" posx="0.0" posy="0.0" height="100.0" width="100.0" visible="false" active="true"
+			default="1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="1" name_texture="Data/GUI/Textures/Game/Blood/sange1.png"/>
+    <texture name="2" name_texture="Data/GUI/Textures/Game/Blood/sange2.png"/>
+    <texture name="3" name_texture="Data/GUI/Textures/Game/Blood/sange3.png"/>
+  </Image>
+
+  <Image name="gui_game_health_bg" posx="0.0" posy="0.00" height="25.83" width="30.125" visible="false" active="true"
+			default="0" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="0" name_texture="Data/GUI/Textures/Game/Health/marcador_small.png"/>
+  </Image>
+
+  <AnimatedImage name="gui_game_health" posx="2.0" posy="5.5" height="11.67" width="10.00" visible="false" active="true"
+          initFrame="65"
+          OnLoadValue=""
+          OnSaveValue=""
+          flip="" backGround="false">
+    <texture name="0" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0066.png"/>
+    <texture name="1" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0065.png"/>
+    <texture name="2" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0064.png"/>
+    <texture name="3" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0063.png"/>
+    <texture name="4" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0062.png"/>
+    <texture name="5" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0061.png"/>
+    <texture name="6" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0060.png"/>
+    <texture name="7" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0059.png"/>
+    <texture name="8" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0058.png"/>
+    <texture name="9" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0057.png"/>
+    <texture name="10" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0056.png"/>
+    <texture name="11" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0055.png"/>
+    <texture name="12" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0054.png"/>
+    <texture name="13" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0053.png"/>
+    <texture name="14" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0052.png"/>
+    <texture name="15" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0051.png"/>
+    <texture name="16" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0050.png"/>
+    <texture name="17" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0049.png"/>
+    <texture name="18" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0048.png"/>
+    <texture name="19" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0047.png"/>
+    <texture name="20" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0046.png"/>
+    <texture name="21" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0045.png"/>
+    <texture name="22" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0044.png"/>
+    <texture name="23" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0043.png"/>
+    <texture name="24" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0042.png"/>
+    <texture name="25" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0041.png"/>
+    <texture name="26" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0040.png"/>
+    <texture name="27" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0039.png"/>
+    <texture name="28" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0038.png"/>
+    <texture name="29" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0037.png"/>
+    <texture name="30" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0036.png"/>
+    <texture name="31" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0035.png"/>
+    <texture name="32" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0034.png"/>
+    <texture name="33" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0033.png"/>
+    <texture name="34" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0032.png"/>
+    <texture name="35" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0031.png"/>
+    <texture name="36" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0030.png"/>
+    <texture name="37" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0029.png"/>
+    <texture name="38" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0028.png"/>
+    <texture name="39" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0027.png"/>
+    <texture name="40" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0026.png"/>
+    <texture name="41" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0025.png"/>
+    <texture name="42" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0024.png"/>
+    <texture name="43" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0023.png"/>
+    <texture name="44" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0022.png"/>
+    <texture name="45" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0021.png"/>
+    <texture name="46" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0020.png"/>
+    <texture name="47" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0019.png"/>
+    <texture name="48" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0018.png"/>
+    <texture name="49" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0017.png"/>
+    <texture name="50" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0016.png"/>
+    <texture name="51" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0015.png"/>
+    <texture name="52" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0014.png"/>
+    <texture name="53" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0013.png"/>
+    <texture name="54" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0012.png"/>
+    <texture name="55" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0011.png"/>
+    <texture name="56" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0010.png"/>
+    <texture name="57" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0009.png"/>
+    <texture name="58" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0008.png"/>
+    <texture name="59" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0007.png"/>
+    <texture name="60" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0006.png"/>
+    <texture name="61" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0005.png"/>
+    <texture name="62" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0004.png"/>
+    <texture name="63" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0003.png"/>
+    <texture name="64" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0002.png"/>
+    <texture name="65" name_texture="Data/GUI/Textures/Game/Health/HealthAnim/vida0001.png"/>
+  </AnimatedImage>
+
+
+  <Image name="gui_dialog" posx="2.875" posy="65.17" height="34.83" width="92.625" visible="false" active="true"
+			default="closed_exit_gate" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="closed_exit_gate" name_texture="Data/GUI/Textures/Game/Msgs/sms 1.png"/>
+    <texture name="closed_gate" name_texture="Data/GUI/Textures/Game/Msgs/sms 2.png"/>
+    <texture name="got_key" name_texture="Data/GUI/Textures/Game/Msgs/sms 3.png"/>
+    <texture name="closed_gate_lever" name_texture="Data/GUI/Textures/Game/Msgs/sms 4.png"/>
+  </Image>
+
+</Windows>

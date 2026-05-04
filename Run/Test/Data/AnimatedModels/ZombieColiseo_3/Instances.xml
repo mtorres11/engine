@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<animated_model name="zombiecoliseo3" >
+
+	<!--Gradas Bajas Pierna Diabla Lado Izq-->
+	<instance pos="-5.49629 1.81756 12.2181" yaw="60.0" pitch="0.0" roll="0.0" />
+	<instance pos="-9.65006 1.69938 10.0301" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-14.7738 4.27603 5.41995" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-23.1204 8.19329 0.0131145" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-23.3742 10.5762 11.852" yaw="90.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas Pierna Diabla Lado Der-->
+	<instance pos="4.06443 3.14623 14.2299" yaw="160.0" pitch="0.0" roll="0.0" />
+	<instance pos="6.10587 4.28878 14.398" yaw="160.0" pitch="0.0" roll="0.0" />
+	<instance pos="14.6332 5.5741 8.36079" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="7.43351 2.12399 11.1921" yaw="180.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas McDonald's-->
+	<instance pos="10.6928 5.61017 -12.2501" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="12.5307 1.68045 -4.30453" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="9.78813 5.5741 -14.5883" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="6.3124 4.31932 -14.4184" yaw="150.0" pitch="0.0" roll="0.0" />
+	<instance pos="3.39248 1.76683 -13.0204" yaw="150.0" pitch="0.0" roll="0.0" />	
+	
+	<!--Gradas Bajas Tribuna-->
+	<instance pos="-18.9441 5.57576 -4.33611" yaw="265.0" pitch="0.0" roll="0.0" />
+	<instance pos="-21.0308 21.5537 -32.0111" yaw="265.0" pitch="0.0" roll="0.0" />
+	<instance pos="-23.0346 10.4734 -13.0345" yaw="265.0" pitch="0.0" roll="0.0" />
+	<instance pos="-7.73033 5.69465 -15.8181" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-7.69778 2.44489 -11.2042" yaw="0.0" pitch="0.0" roll="0.0" />
+
+</animated_model>

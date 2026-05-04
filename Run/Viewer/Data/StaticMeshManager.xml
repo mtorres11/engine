@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<static_meshes>
+	<!--<static_mesh name="BoxTexq" filename="Data/Meshes/BoxTexq.mesh" />
+  --><!--<static_mesh name="BoxLightMap" filename="Data/Meshes/BoxLightMap.mesh" />-->
+  <!--<static_mesh name="Teapot01Diffuse" filename="Data/Meshes/Teapot01Diffuse.mesh" />-->
+	<!--<static_mesh name="Cylinder" filename="Data/Meshes/Cylinder.mesh" />-->	
+  <static_mesh name="Plane01" filename="Data/Meshes/Plane01.mesh" />
+	<static_mesh name="EarthDay" filename="Data/Meshes/EarthDay.mesh" />
+	<static_mesh name="tumba" filename="Data/Meshes/tumba.mesh" />
+	<!--
+	<static_mesh name="puerta" filename="Data/Meshes/puerta.mesh" />
+  <static_mesh name="arbolLOW" filename="Data/Meshes/arbolLOW.mesh" />
+  <static_mesh name="BoxBumpMap" filename="Data/Meshes/BoxBumpMap.mesh" />
+  <static_mesh name="BoxBumpMap2" filename="Data/Meshes/BoxBumpMap.mesh" />-->
+</static_meshes>

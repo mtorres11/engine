@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<scene_effects>
+  <pre_render type="shadow_map_render_to_texture" name="shadow_map_scene_effect" texture="ShadowMapTexture" width="2048" height="2048" static_mesh_technique="StaticMeshesTechniqueShadowMap" animated_model_technique="Cal3DTechniqueShadow" light_shadow_cast="Direct0" active="true" format_type="R32F"/>
+  <!--<pre_render type="render_to_texture" name="z_blur_scene_effect" texture="ZBlurTexture" width="1024" height="1024" static_mesh_technique="RenderZBlurTechnique" animated_model_technique="Cal3DTechniqueShadow" format_type="A8R8G8B8" active="true"/>-->
+
+  <!--
+  <pre_render type="render_to_texture" name="glow_scene_effect" texture="GlowTexture" width="512" height="512" static_mesh_technique="RenderGlowTechnique" animated_model_technique="Cal3DGlowTechnique" format_type="A8R8G8B8" active="true"/>
+  -->
+  <render name="default_scene_effect" active="true">
+    <texture stage_id="5" file="ShadowMapTexture"/>
+  </render>
+
+  <capture_frame_buffer name="capture_frame_buffer_scene_effect_without_post_fx" texture="FrameBufferTextureWithoutPostFX" texture_width_as_frame_buffer="true" active="true" format_type="A8R8G8B8"/>
+  <capture_frame_buffer_post_fx name="capture_frame_buffer_scene_effect_with_post_fx"  texture="FrameBufferTextureWithPostFX" texture_width_as_frame_buffer="true" active="true" format_type="A8R8G8B8"/>
+
+  <!--<post_render type="draw_quad" name="post_zblur_scene_effect" technique="UsePS20ThirteenLookups" active="true">
+    <texture stage_id="0" file="ZBlurTexture"/>
+    <texture stage_id="1" file="FrameBufferTextureWithoutPostFX"/>
+  </post_render>-->
+  
+  <!--
+  <post_render type="draw_quad" name="glow_post_effect" technique="RenderGlowPostFXTechnique" active="true" color="1.0 1.0 1.0 1.0">
+    <texture stage_id="0" file="GlowTexture"/>
+    <texture stage_id="1" file="FrameBufferTextureWithoutPostFX"/>
+  </post_render>  
+  -->
+
+  <!--<post_render type="draw_quad" name="post_blur_scene_effect"
+	technique="RenderGUITechnique" active="true" color="1.0 1.0 1.0 0.4">
+	<texture stage_id="0" file="FrameBufferTextureWithPostFX"/>
+  </post_render>-->
+
+  
+  <!--PostRender Glow-->
+ 
+<!--
+  <post_render type="draw_quad" name="post_relieve_scene_effect" technique="RenderRelieveTechnique" active="true">
+    <texture stage_id="0" file="FrameBufferTextureWithoutPostFX" load_file="false"/>
+  </post_render>
+ --> 
+ <!--
+  <post_render type="draw_quad" name="post_difuminado_scene_effect" technique="RenderDifuminadoTechnique" active="true">
+	<texture stage_id="0" file="FrameBufferTextureWithoutPostFX" load_file="false"/>
+  </post_render>
+  -->  
+<!--  <post_render type="draw_quad" name="post_ondulatorio_scene_effect" technique="RenderOndulatorioTechnique" active="true">
+	<texture stage_id="0" file="FrameBufferTextureWithoutPostFX" load_file="false"/>
+  </post_render>
+-->
+
+	<!--<post_render type="draw_quad" name="noise_and_vignetting_scene_effect" technique="RenderNoiseAndVignettingTechnique" active="true">
+		<texture stage_id="0" file="data/textures/noise.tga" load_file="true"/>
+		<texture stage_id="1" file="data/textures/vignetting.tga" load_file="true"/>
+	</post_render>-->
+
+	<!--<post_render type="draw_quad" name="noise_and_vignetting_scene_effect" technique="RenderNoiseAndVignettingTechnique" active="true">
+		<texture stage_id="0" file="data/textures/noise.tga" load_file="true"/>
+		<texture stage_id="1" file="data/textures/vignetting.dds" load_file="true"/>
+	</post_render>-->
+  
+</scene_effects>

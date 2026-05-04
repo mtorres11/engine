@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<static_meshes>
+	<static_mesh name="sky box" filename="Data/Level1/Meshes/sky box.mesh" selfIlluminationColor="0.25 0.22 0.32" />
+	<static_mesh name="mesh_sueloArea1_no_visble" filename="Data/Level1/Meshes/mesh_area1_novisible.mesh" />
+	<static_mesh name="area 1" filename="Data/Level1/Meshes/area 1.mesh" />
+	<static_mesh name="calabaa01" filename="Data/Level1/Meshes/cerebro.mesh" />
+	<static_mesh name="suelo area2" filename="Data/Level1/Meshes/suelo area2.mesh" />
+	<static_mesh name="mesh_area2_novisible" filename="Data/Level1/Meshes/mesh_area2_novisible.mesh" />
+	<static_mesh name="miscelanea" filename="Data/Level1/Meshes/miscelanea.mesh" />
+	<static_mesh name="fondo" filename="Data/Level1/Meshes/fondo.mesh" selfIlluminationColor="0.35 0.30 0.5" />
+	<static_mesh name="lagp" filename="Data/Level1/Meshes/lagp.mesh" selfIlluminationColor="0.3 0.25216 0.4" />
+	<static_mesh name="parcela1" filename="Data/Level1/Meshes/parcela1.mesh" />
+	<static_mesh name="parcela 2" filename="Data/Level1/Meshes/parcela 2.mesh" />
+	<static_mesh name="parcela 4" filename="Data/Level1/Meshes/parcela 4.mesh" />
+	<static_mesh name="parcela 6" filename="Data/Level1/Meshes/parcela 6.mesh" />
+	<static_mesh name="parcela 3" filename="Data/Level1/Meshes/parcela 3.mesh" />
+	<static_mesh name="parcela 5" filename="Data/Level1/Meshes/parcela 5.mesh" />
+	<static_mesh name="zona izquierda1" filename="Data/Level1/Meshes/zona izquierda1.mesh" />
+	<static_mesh name="zona izquierda2" filename="Data/Level1/Meshes/zona izquierda2.mesh" />
+	<static_mesh name="pared entrada 2" filename="Data/Level1/Meshes/pared entrada 2.mesh" />
+	<static_mesh name="entrada" filename="Data/Level1/Meshes/entrada.mesh" />
+	<static_mesh name="zona derecha 1" filename="Data/Level1/Meshes/zona derecha 1.mesh" />
+	<static_mesh name="zona derecha 2 A" filename="Data/Level1/Meshes/zona derecha 2 A.mesh" />
+	<static_mesh name="zona derecha 2 B" filename="Data/Level1/Meshes/zona derecha 2 B.mesh" />
+	<static_mesh name="interior pasillo derecho" filename="Data/Level1/Meshes/interior pasillo derecho.mesh" />
+	<static_mesh name="interior pasillo izquierdo" filename="Data/Level1/Meshes/interior pasillo izquierdo.mesh" />
+	<!--<static_mesh name="cuerdas04" filename="Data/Level1/Meshes/cuerdas04.mesh" />-->
+	<static_mesh name="puertasalida" filename="Data/Level1/Meshes/puertasalida.mesh" />
+	<static_mesh name="a3-coliseo exterior" filename="Data/Level1/Meshes/a3-coliseo exterior.mesh" selfIlluminationColor="0.13 0.2 0.22" />
+	<static_mesh name="box_puerta palanca_visible" filename="Data/Level1/Meshes/box_puerta palanca_visible.mesh" />
+	<static_mesh name="box_puerta2 palanca_visible" filename="Data/Level1/Meshes/box_puerta llave_visible.mesh" />
+	<static_mesh name="llave" filename="Data/Level1/Meshes/llave.mesh" selfIlluminationColor="0.4 0.3 0.37" />
+	<static_mesh name="llave2" filename="Data/Level1/Meshes/llave 2.mesh" selfIlluminationColor="1.0 1.0 1.0" />
+	<static_mesh name="agua fuente" filename="Data/Level1/Meshes/agua fuente.mesh" selfIlluminationColor="0.5 0.5 0.5" />
+	<static_mesh name="velas centro" filename="Data/Level1/Meshes/velas centro.mesh" />
+	<!--<static_mesh name="velas izquierda" filename="Data/Level1/Meshes/velas izquierda.mesh" />-->
+	<static_mesh name="alphas a2 izuieda" filename="Data/Level1/Meshes/alphas a2 izuieda.mesh" />
+	<static_mesh name="alphas a2 centro" filename="Data/Level1/Meshes/alphas a2 centro.mesh" />
+	<static_mesh name="alphas a2 derecha" filename="Data/Level1/Meshes/alphas a2 derecha.mesh" />
+	
+<!--
+	<static_mesh name="hierba04" filename="Data/Level1/Meshes/hierba04.mesh" />
+	<static_mesh name="hierba02" filename="Data/Level1/Meshes/hierba02.mesh" />
+	<static_mesh name="hierba06" filename="Data/Level1/Meshes/hierba06.mesh" />
+	<static_mesh name="hierba07" filename="Data/Level1/Meshes/hierba07.mesh" />
+	<static_mesh name="hierba08" filename="Data/Level1/Meshes/hierba08.mesh" />
+	<static_mesh name="hierba01" filename="Data/Level1/Meshes/hierba01.mesh" />
+	<static_mesh name="cadena" filename="Data/Level1/Meshes/cadena.mesh" />
+	<static_mesh name="verjas02" filename="Data/Level1/Meshes/verjas02.mesh" />
+	<static_mesh name="verjas03" filename="Data/Level1/Meshes/verjas03.mesh" />
+	<static_mesh name="verjas04" filename="Data/Level1/Meshes/verjas04.mesh" />
+	<static_mesh name="cesped corto10" filename="Data/Level1/Meshes/cesped corto10.mesh" />
+	<static_mesh name="cesped corto04" filename="Data/Level1/Meshes/cesped corto04.mesh" />
+	<static_mesh name="hierba borde " filename="Data/Level1/Meshes/hierba borde .mesh" />
+	<static_mesh name="hierba borde 01" filename="Data/Level1/Meshes/hierba borde 01.mesh" />
+	<static_mesh name="cesped corto03" filename="Data/Level1/Meshes/cesped corto03.mesh" />
+	<static_mesh name="hierba borde 02" filename="Data/Level1/Meshes/hierba borde 02.mesh" />
+-->
+<!--
+	<static_mesh name="alphas a2" filename="Data/Level1/Meshes/alphas a2.mesh" />
+	<static_mesh name="lago alpha" filename="Data/Level1/Meshes/lago alpha.mesh" />
+	<static_mesh name="columna LOW_Entera" filename="Data/Level1/Meshes/columna LOW_Entera.mesh" />
+	<static_mesh name="velas" filename="Data/Level1/Meshes/velas.mesh" />
+	<static_mesh name="break07" filename="Data/Level1/Meshes/break07.mesh" />
+	<static_mesh name="hierba36" filename="Data/Level1/Meshes/hierba36.mesh" />
+	<static_mesh name="hierba37" filename="Data/Level1/Meshes/hierba37.mesh" />
+	<static_mesh name="hierba38" filename="Data/Level1/Meshes/hierba38.mesh" />
+	<static_mesh name="hierba39" filename="Data/Level1/Meshes/hierba39.mesh" />
+	<static_mesh name="hierba40" filename="Data/Level1/Meshes/hierba40.mesh" />
+	<static_mesh name="hierba41" filename="Data/Level1/Meshes/hierba41.mesh" />
+	<static_mesh name="hierba42" filename="Data/Level1/Meshes/hierba42.mesh" />
+	<static_mesh name="hierba43" filename="Data/Level1/Meshes/hierba43.mesh" />
+	<static_mesh name="hierba44" filename="Data/Level1/Meshes/hierba44.mesh" />
+	<static_mesh name="hierba45" filename="Data/Level1/Meshes/hierba45.mesh" />
+	<static_mesh name="hierba46" filename="Data/Level1/Meshes/hierba46.mesh" />
+	<static_mesh name="hierba47" filename="Data/Level1/Meshes/hierba47.mesh" />
+	<static_mesh name="hierba48" filename="Data/Level1/Meshes/hierba48.mesh" />
+	<static_mesh name="hierba21" filename="Data/Level1/Meshes/hierba21.mesh" />
+	<static_mesh name="hierba22" filename="Data/Level1/Meshes/hierba22.mesh" />
+	<static_mesh name="hierba23" filename="Data/Level1/Meshes/hierba23.mesh" />
+	<static_mesh name="hierba12" filename="Data/Level1/Meshes/hierba12.mesh" />
+	<static_mesh name="hierba13" filename="Data/Level1/Meshes/hierba13.mesh" />
+	<static_mesh name="hierba14" filename="Data/Level1/Meshes/hierba14.mesh" />
+	<static_mesh name="hierba09" filename="Data/Level1/Meshes/hierba09.mesh" />
+	<static_mesh name="hierba10" filename="Data/Level1/Meshes/hierba10.mesh" />
+	<static_mesh name="hierba11" filename="Data/Level1/Meshes/hierba11.mesh" />
+	<static_mesh name="hierba15" filename="Data/Level1/Meshes/hierba15.mesh" />
+	<static_mesh name="hierba16" filename="Data/Level1/Meshes/hierba16.mesh" />
+	<static_mesh name="hierba17" filename="Data/Level1/Meshes/hierba17.mesh" />
+	<static_mesh name="hierba18" filename="Data/Level1/Meshes/hierba18.mesh" />
+	<static_mesh name="hierba19" filename="Data/Level1/Meshes/hierba19.mesh" />
+	<static_mesh name="hierba20" filename="Data/Level1/Meshes/hierba20.mesh" />
+	<static_mesh name="hierba05" filename="Data/Level1/Meshes/hierba05.mesh" />
+	<static_mesh name="hierba" filename="Data/Level1/Meshes/hierba.mesh" />
+	<static_mesh name="Box01" filename="Data/Level1/Meshes/Box01.mesh" />
+	<static_mesh name="telaraña01" filename="Data/Level1/Meshes/telaraña01.mesh" />
+	<static_mesh name="hierba borde" filename="Data/Level1/Meshes/hierba borde.mesh" />
+	<static_mesh name="hierba01" filename="Data/Level1/Meshes/hierba01.mesh" />
+	<static_mesh name="hierba borde01" filename="Data/Level1/Meshes/hierba borde01.mesh" />
+	<static_mesh name="hierba borde03" filename="Data/Level1/Meshes/hierba borde03.mesh" />
+	<static_mesh name="break" filename="Data/Level1/Meshes/break.mesh" />
+	<static_mesh name="break01" filename="Data/Level1/Meshes/break01.mesh" />
+	<static_mesh name="break02" filename="Data/Level1/Meshes/break02.mesh" />
+	<static_mesh name="break03" filename="Data/Level1/Meshes/break03.mesh" />
+	<static_mesh name="break04" filename="Data/Level1/Meshes/break04.mesh" />
+	<static_mesh name="break05" filename="Data/Level1/Meshes/break05.mesh" />
+	<static_mesh name="break06" filename="Data/Level1/Meshes/break06.mesh" />
+	<static_mesh name="break 2" filename="Data/Level1/Meshes/break 2.mesh" />
+	<static_mesh name="break 03" filename="Data/Level1/Meshes/break 03.mesh" />
+	<static_mesh name="break 04" filename="Data/Level1/Meshes/break 04.mesh" />
+	<static_mesh name="break 05" filename="Data/Level1/Meshes/break 05.mesh" />
+	<static_mesh name="break08" filename="Data/Level1/Meshes/break08.mesh" />
+	<static_mesh name="telaraña" filename="Data/Level1/Meshes/telaraña.mesh" />
+	<static_mesh name="verjas" filename="Data/Level1/Meshes/verjas.mesh" />
+	<static_mesh name="verjas01" filename="Data/Level1/Meshes/verjas01.mesh" />
+	<static_mesh name="cesped corto07" filename="Data/Level1/Meshes/cesped corto07.mesh" />
+	<static_mesh name="cesped corto08" filename="Data/Level1/Meshes/cesped corto08.mesh" />
+	<static_mesh name="cesped corto09" filename="Data/Level1/Meshes/cesped corto09.mesh" />
+	<static_mesh name="cesped corto11" filename="Data/Level1/Meshes/cesped corto11.mesh" />
+	<static_mesh name="hierba03" filename="Data/Level1/Meshes/hierba03.mesh" />
+	<static_mesh name="verjas05" filename="Data/Level1/Meshes/verjas05.mesh" />
+	<static_mesh name="cesped corto06" filename="Data/Level1/Meshes/cesped corto06.mesh" />
+	<static_mesh name="verjas p6" filename="Data/Level1/Meshes/verjas p6.mesh" />
+	<static_mesh name="Object01" filename="Data/Level1/Meshes/Object01.mesh" />
+	<static_mesh name="hierba borde02" filename="Data/Level1/Meshes/hierba borde02.mesh" />
+-->
+</static_meshes>

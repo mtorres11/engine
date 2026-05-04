@@ -1,0 +1,7 @@
+<actor name="lanza" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DTechnique">
+	<skeleton filename="Hueso.CSF"/>
+	<mesh filename="lanza-mesh.CMF"/>
+	<texture filename="difuse lanzas.dds"/>
+	<animation name="lanza-animation" filename="lanza-animation.CAF"/>
+	<animation name="lanza-animation2" filename="lanza-animation2.CAF"/>
+</actor>

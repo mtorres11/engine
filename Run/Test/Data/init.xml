@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Parameters>
+  <config fullscreen="false" widthscreen="800" heightscreen="600" />
+  <debug consoleEnabled="false" logRender="false" mouseEnabled="false" guiEnabled="true"/>
+</Parameters>
+

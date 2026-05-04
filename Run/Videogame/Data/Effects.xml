@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<effects>
+  <default_technique vertex_type="19" technique="NormalTextureVertexTechnique"/>
+  <default_technique vertex_type="35" technique="NormalTextureVertexTechnique"/>
+  <default_technique vertex_type="403" technique="Cal3DTechnique"/>
+  
+  <effect name="DefaultEffect" file="data/effects/DefaultEffect.fx"/>
+  <effect name="ZBlur" file="data/effects/ZBlur.fx"/>
+ 
+  <technique name="NormalTextureVertexTechnique" effect="DefaultEffect" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="true" use_projection_matrix="true" use_world_view_matrix="true" use_view_to_light_projection_matrix="true" />
+  <technique name="RenderNoiseAndVignettingTechnique" effect="DefaultEffect" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="true" use_projection_matrix="true" use_world_view_matrix="true" use_view_to_light_projection_matrix="true" use_time="true"/>
+  <technique name="ShowNormalsTechnique" effect="DefaultEffect" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false"/>
+  <technique name="LightmapTechnique" effect="DefaultEffect" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false"/>
+  <technique name="Cal3DTechnique" effect="DefaultEffect" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false" use_bones="true"/>
+  <technique name="StaticMeshesTechniqueShadowMap" effect="DefaultEffect" use_world_view_projection_matrix="true"/>
+  <technique name="RenderDifuminadoTechnique" effect="DefaultEffect" use_world_matrix="false" use_world_view_projection_matrix="true" use_lights="false" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false"/>
+  <technique name="RenderGUITechnique" effect="DefaultEffect" use_world_matrix="false" use_world_view_projection_matrix="true" use_lights="false" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false" useTime="true"/>
+  <technique name="RenderOndulatorioTechnique" effect="DefaultEffect" use_world_matrix="false" use_world_view_projection_matrix="true" use_lights="false" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false" useTime="true"/>
+  <technique name="RenderRelieveTechnique" effect="DefaultEffect" use_world_matrix="false" use_world_view_projection_matrix="true" use_lights="false" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false" useTime="true"/>
+  <technique name="RenderGlowTechnique" effect="DefaultEffect" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false"/>
+  <technique name="RenderZBlurTechnique" effect="ZBlur" use_world_matrix="true" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="false" use_projection_matrix="true" use_world_view_matrix="true" use_view_to_light_projection_matrix="true"/> 
+  <technique name="UsePS20ThirteenLookups" effect="ZBlur" use_world_matrix="false" use_world_view_projection_matrix="true" use_lights="false" num_of_lights="4" use_camera_position="false" use_projection_matrix="false" use_world_view_matrix="false" use_view_to_light_projection_matrix="false"/>
+</effects>

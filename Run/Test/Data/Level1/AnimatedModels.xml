@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<animated_models>
+  <animated_model name="palanca" path="Data/AnimatedModels/Palanca/"/>
+  <animated_model name="bot" path="Data/AnimatedModels/Muerte/"/>
+  <animated_model name="zombie" path="Data/AnimatedModels/Zombie/"/>
+  <animated_model name="zombierapido" path="Data/AnimatedModels/ZombieRapido/"/>
+  <animated_model name="zombievomitador" path="Data/AnimatedModels/ZombieVomitador/"/>
+  <!--<animated_model name="murcielago" path="Data/AnimatedModels/Murcielago/"/>-->
+  <animated_model name="Puerta_Salida" path="Data/AnimatedModels/Puerta_Salida/"/>
+  <animated_model name="arenazombievomitador" path="Data/AnimatedModels/ZombieVomitador/Arena-ZV/"/>
+  <animated_model name="banderola" path="Data/AnimatedModels/Banderola/"/>
+</animated_models>

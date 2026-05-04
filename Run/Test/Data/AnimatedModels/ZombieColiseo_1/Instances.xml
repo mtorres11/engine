@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<animated_model name="zombiecoliseo1" >
+
+	<!--Gradas Bajas Pierna Diabla Lado Izq-->
+	<instance pos="-2.79866 1.68523 13.1439" yaw="60.0" pitch="0.0" roll="0.0" />
+	<instance pos="-5.05922 3.07781 14.0941" yaw="60.0" pitch="0.0" roll="0.0" />
+	<instance pos="-12.467 1.69938 5.64844" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-11.1835 1.69938 7.4737" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-12.3844 4.27603 9.55495" yaw="90.0" pitch="0.0" roll="0.0" />
+	<instance pos="-12.5143 5.70767 10.2619" yaw="90.0" pitch="0.0" roll="0.0" />
+	<!--Gradas Altas Pierna Diabla Lado Izq-->
+	<instance pos="-20.1202 10.4969 17.7321" yaw="90.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas Pierna Diabla Lado Der-->
+	<instance pos="14.4832 2.96804 2.23885" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="11.2869 1.68523 6.29924" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="13.9356 5.57576 14.1569" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="12.3077 4.33728 9.36567" yaw="180.0" pitch="0.0" roll="0.0" />
+	<instance pos="15.1341 5.68298 5.68562" yaw="180.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas McDonald's-->
+	<instance pos="23.3592 8.4533 -0.0840232" yaw="156.0" pitch="0.0" roll="0.0" />
+	<instance pos="22.5653 10.4969 -12.3238" yaw="156.0" pitch="0.0" roll="0.0" />
+	<instance pos="13.062 4.21594 -8.30077" yaw="156.0" pitch="0.0" roll="0.0" />
+	<instance pos="10.6215 3.11302 -10.2783" yaw="156.0" pitch="0.0" roll="0.0" />
+	<instance pos="25.7929 10.8555 -1.54735" yaw="156.0" pitch="0.0" roll="0.0" />
+	<instance pos="12.5307 1.68045 -6.24221" yaw="156.0" pitch="0.0" roll="0.0" />
+	
+	<!--Gradas Bajas Tribuna-->
+	<instance pos="-4.48055 1.7005 -12.598" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-0.138483 10.4734 -26.4321" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-3.77426 2.97909 -14.246" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-9.2045 6.47702 -12.813" yaw="0.0" pitch="0.0" roll="0.0" />
+	<instance pos="-3.15404 1.8067 -13.0848" yaw="0.0" pitch="0.0" roll="0.0" />
+	
+</animated_model>

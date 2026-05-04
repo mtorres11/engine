@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<lights>
+  <light name="luz dinamica" type="omni" pos="-0.008 5.969 11.608" color="1.0 0.0 0.0" multiplier="1.0" att_start_range="1.6" att_end_range="12.0" enable="true">
+	<effect type="1" max="1.0" min="0.3" fps="30.0" numframes="25" />
+  </light>
+  <light name="relampago" type="omni" pos="2.477 59.171 0.0" color="1.0 1.0 1.0" multiplier="0.0" att_start_range="43.124" att_end_range="60.355" enable="true">
+	<effect type="2" fps="30.0" >
+		<keyframe finalMultiplier="1.0"	length="2" />
+		<keyframe finalMultiplier="0.0" length="2" />
+		<keyframe finalMultiplier="10.0" length="2" />
+		<keyframe finalMultiplier="0.0" length="2" />
+		<keyframe finalMultiplier="1.0" length="2" />
+		<keyframe finalMultiplier="0.0" length="2" />
+		
+		<keyframe finalMultiplier="0.0" length="32" />
+		<keyframe finalMultiplier="1.0" length="2" />
+		<keyframe finalMultiplier="0.0" length="2" />
+		<keyframe finalMultiplier="0.0" length="100" />
+	</effect>
+  </light>
+  <light name="MUERTE" type="omni" pos="-18.402222 0.937055 6.556000" color="0.2784 0.5412 0.2784" multiplier="0.5" att_start_range="1.0" att_end_range="3.0" enable="false"/>
+  <light type="ambient" color="0.898039 0.843137 0.827451" multiplier="0.45" />
+</lights>

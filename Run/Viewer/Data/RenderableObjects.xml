@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<renderable_objs>
+  <object name="tumba" core="tumba" pos="-3.50538 0.00 -15.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+  <object name="tumbaEscalada" core="tumba" pos="3.50538 0.00 -15.0" yaw="0.0" pitch="0.0" roll="0.0" scalex="2" scaley="2" scalez="2" />
+  <!--<object name="BoxTexq" core="BoxTexq" pos="-19.4692 0.0 1.98369" yaw="0.0" pitch="0.0" roll="0.0"  />-->
+  <!--	<object name="BoxLightMap" core="BoxLightMap" pos="-10.6252 -1.44919 2.42306" yaw="0.0" pitch="0.0" roll="0.0"  />-->
+	<!--<object name="Teapot01Diffuse" core="Teapot01Diffuse" pos="17.7072 0.0 1.98369" yaw="0.0" pitch="0.0" roll="0.0"  />-->
+	<object name="mi_tierra" core="EarthDay" pos="30.6252 20.44919 12.42306" yaw="0.0" pitch="0.0" roll="0.0"  />
+<!--  <animated_model name="mi_amigo" core="bot" pos="4 0.0 0" yaw="270.0" pitch="0.0" roll="0.0"/>
+-->  <animated_model name="mi_amigo2" core="bot" pos="2 0 0" yaw="0.0" pitch="0.0" roll="0.0" scalex="1.5" scaley="2.5" scalez="1.5"/>
+  <!--<object name="Cylinder" core="Cylinder" pos="10.449 2.58179 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />-->
+  <object name="suelo" core="Plane01" pos="-5.50538 0.00 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+  <!--<object name="Plane01" core="Plane01" pos="0.0 0.0 0.0" yaw="0.0" pitch="0.0" roll="0.0"  />-->
+	<!--<object name="tumbalujo" core="tumba" pos="-3.50538 0.00 -15.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+	<object name="arbol" core="arbolLOW" pos="11.50538 0.0 -10.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+  <object name="arbol2" core="arbolLOW" pos="-1.50538 0.0 -10.0" yaw="0.0" pitch="0.0" roll="0.0" scalex="5.0" scaley="5.0" scalez="5.0" />
+  <object name="puertalujo" core="puerta" pos="5.50538 0.00 -10.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+  <object name="BoxBumpMap" core="BoxBumpMap" pos="-10.6252 0.0 10.0" yaw="0.0" pitch="0.0" roll="0.0"  />
+  <object name="BoxBumpMap2" core="BoxBumpMap2" pos="-10.6252 0.0 -5.0" yaw="0.0" pitch="0.0" roll="0.0"  />-->
+</renderable_objs>

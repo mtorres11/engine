@@ -1,0 +1,13 @@
+<actor name="bot" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DTechnique">
+	<skeleton filename="muerte_skeleton.CSF"/>
+	<mesh filename="muerte_camina_mesh.CMF"/>
+	<texture filename="difuse_muerte.dds"/>
+	<animation name="muerte_muerte" filename="muerte_muerte.CAF"/>
+	<animation name="muerte_idle" filename="muerte_idle.CAF"/>
+	<animation name="muerte_jump" filename="muerte_jump2.CAF"/>
+	<animation name="muerte_caminando" filename="muerte_caminando.CAF"/>
+	<animation name="muerte_impacto" filename="muerte_impacto2.CAF"/>
+	<animation name="muerte_golpe_strong" filename="muerte_golpe_strong.CAF"/>
+	<animation name="muerte_golpe_light" filename="muerte_golpe_light.CAF"/>
+	<animation name="muerte_golpe_light_moving" filename="muerte_golpe_light2.CAF"/>
+</actor>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<static_meshes>
+	<static_mesh name="Box01" filename="Data/Level3/Meshes/Box01.mesh" />
+	<static_mesh name="Sphere01" filename="Data/Level3/Meshes/Sphere01.mesh" />
+	<static_mesh name="Torus01" filename="Data/Level3/Meshes/Torus01.mesh" />
+	<static_mesh name="Teapot01" filename="Data/Level3/Meshes/Teapot01.mesh" />
+</static_meshes>

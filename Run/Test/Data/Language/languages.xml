@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<languages>
+	<language id="spanish" path="Data/Language/spanish.xml" default="true" />
+	<language id="english" path="Data/Language/english.xml" default="false" />
+	<language id="galician" path="Data/Language/galician.xml" default="false" />
+	<language id="catalan" path="Data/Language/catalan.xml" default="false" />
+</languages>

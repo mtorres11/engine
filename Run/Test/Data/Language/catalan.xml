@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Language id="catalan">
+  <literal id="HiWorld"  font="arial"  color="0.5 0.1 0.1 0.7" value="Hola Món"/>
+  <literal id="Name" font="arial"  color="0.5 0.2 0.4 0.8" value="Em dic Marco."/>
+  <literal id="Exit"     font="arial"  color="0.1 0.1 0.1 0.8" value="Sortir"/>
+  <literal id="Controls" font="arial" color="1.0 1.0 1.0 0.8" value="Texto para los comandos"/>
+</Language>

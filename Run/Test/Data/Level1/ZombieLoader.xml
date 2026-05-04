@@ -1,0 +1,41 @@
+<zombies>
+  <corezombie>
+    <common_zombie name="ZOMBIE_NORMAL" core_animated_model="zombie" move_speed="1.0" rotate_speed="1.09" radius_smelling="22.0" radius_viewing="3.0" scaled="1.0" health="100"/>
+    <common_zombie name="ZOMBIE_RAPIDO" core_animated_model="zombierapido" move_speed="2.0" rotate_speed="1.18" radius_smelling="18.0" radius_viewing="7.0" scaled="0.87" health="75"/>
+    <common_zombie name="ZOMBIE_VOMITADOR" core_animated_model="zombievomitador" move_speed="0.0" rotate_speed="0.05" radius_smelling="10.0" radius_viewing="5.0" scaled="1.0" health="200"/>
+    <common_zombie name="ZOMBIE_OLFATEADOR" core_animated_model="zombie" move_speed="1.0" rotate_speed="0.1" radius_smelling="1.0" radius_viewing="1.0" scaled="2.3" health="200"/>
+  </corezombie>
+ 
+  <instancezombie>
+     <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_2" pos="17.4 0.0 8.9" num_alternativas="0" rot="90 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+     <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_12" pos="57.9 0.0 -20.4" rot="80 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+	<zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_17" pos="35.0 0.0 -3.9" num_alternativas="4" alt1="35.2 0.0 0.3" alt2="31.7 0.0 -4.0" alt3="39.5 0.0 -4.0" alt4="35.2 0.0 -8.16" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+	<zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_19" pos="37.3 0.0 -16.0" num_alternativas="4" alt1="33.5 0.0 -15.8" alt2="37.4 0.0 -20.6" alt3="41.1 0.0 -15.8" alt4="37.4 0.0 -12.0" rot="180 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+	<zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_27" pos="53.1 0.0 8.7" num_alternativas="4" alt1="53.4 0.0 9.5" alt2="53.4 0.0 7.5" alt3="49.9 0.0 8.5" alt4="56.9 0.0 8.5" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+	<zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_28" pos="56.6 0.0 -3.4" num_alternativas="4" alt1="56.8 0.0 -2.3" alt2="53.4 0.0 -3.4" alt3="60.5 0.0 -3.4" alt4="56.9 0.0 -5.1" rot="80 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+	
+<!--
+   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_3" pos="24.5 0.0 0.3" rot="80 0 0" agressivity = "3"/>
+
+   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_1" pos="15.6 0.0 8.8" rot="180 0 0" agressivity = "1"/>
+   <zombie_instance type="ZOMBIE_RAPIDO" name="z_inst_4" pos="26.6 0.0 -5.7" rot="180 0 0" agressivity = "3"/>
+   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_5" pos="24.4 0.0 -11.3" rot="80 0 0" agressivity = "2"/>
+   <zombie_instance type="ZOMBIE_RAPIDO" name="z_inst_6" pos="24.4 0.0 -16.0" rot="180 0 0" agressivity = "3"/>
+   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_7" pos="21.0 0.0 -15.5" rot="80 0 0" agressivity = "1"/>
+   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_8" pos="29.8 0.0 8.8" rot="180 0 0" agressivity = "2"/>
+-->
+   <!--Pruebas Miguel-->
+<!--   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_62" pos="23 0 -11" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="4.0"/>
+   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_60" pos="23 0 -4" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_61" pos="10 0 10" rot="280 0 0" size="0.1" speed_vomito="1.5" pause_vomito="4.0"/>
+   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_63" pos="20 0 0" rot="280 0 0" size="0.1" speed_vomito="1.5" pause_vomito="3.0"/>
+   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_72" pos="23 0 -12" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="4.0"/>
+   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_73" pos="23 0 -10" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="4.0"/>
+   <zombie_instance type="ZOMBIE_VOMITADOR" name="z_inst_74" pos="23 0 -9" rot="100 0 0" size="0.1" speed_vomito="1.5" pause_vomito="4.0"/>
+-->    
+  <!--solo si hay instacia de IA en el proceso principal como en processIA3
+  <enemy_instance type="ZOMBIE_OLFATEADOR" name="z8" pos="-5 0 5" rot="100 0 0" dummy_start='"11"'/>
+  <enemy_instance type="ZOMBIE_OLFATEADOR" name="z9" pos="3 0 10" rot="280 0 0" dummy_start='"13"'/>
+  -->
+  </instancezombie>
+</zombies>

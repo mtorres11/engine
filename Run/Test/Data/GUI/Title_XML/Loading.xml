@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Windows OnLoadWindows="_core:set_process('game')" OnSaveWindows="" OnUpdateWindows="">
+
+  <Image name="loading_bg" posx="0.00" posy="0.00" height="100.00" width="100.00" visible="true" active="true"
+         default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="Data/GUI/Textures/Game/Loading/loading.jpg"/>
+  </Image>
+
+  <!--<Image name="loading" posx="68.00" posy="88.00" height="9.76" width="29.29" visible="true" active="true"
+        default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="./Data/GUI/GUI_Hito/loading.jpg"/>
+  </Image>-->
+  
+</Windows>

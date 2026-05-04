@@ -1,0 +1,7 @@
+<actor name="pierna" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DTechnique">
+	<skeleton filename="pierna-hueso.CSF"/>
+	<mesh filename="pierna-mesh.CMF"/>
+	<texture filename="coiseo difuse PIERNA DIABLA.dds"/>
+	<animation name="pierna-animation2" filename="pierna-animation2.CAF"/>
+	<animation name="pierna-animation" filename="pierna-animation.CAF"/>
+</actor>

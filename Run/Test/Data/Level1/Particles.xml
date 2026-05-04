@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ParticleManager>
+  <ParticleEmitters>
+    <ParticleEmitter name="pFuente">
+      <color color1="1.0 1.0 1.0 1.0" color2="1.0 1.0 1.0 1.0" time="0.0"/>
+      <direction d1="0.0 -0.2 0.0" d2="0.0 -0.2 0.0" time="0.0">
+        <time t="0.3" dir1="-0.2 -0.1 0.0" dir2="-0.2 -0.1 0.0"/>
+        <time t="0.5" dir1="-0.3 -0.5 0.0" dir2="-0.3 -0.5 0.0"/>
+        <time t="2.0" dir1="0.0 -0.5 0.0" dir2="0.0 -0.5 0.0"/>
+      </direction>
+      <size mins="0.06" maxs="0.06" time="0.0"/>
+      <life_time life1="0.1" life2="4.0"/>
+      <emit_rate er1="1.0" er2="8.0"/>
+      <gravity gr="false"/>
+      <velocity vel="1.0 2.0 1.0" time="0.0">
+        <time t="0.3" v="1.0 0.5 1.0"/>
+        <time t="0.4" v="1.0 0.8 1.0"/>
+      </velocity>
+      <angle ang="2.0" time="0.0"/>
+      <texture tex="Data/Textures/particulas/particula fuente.dds"/>
+    </ParticleEmitter>
+    <ParticleEmitter name="pLuciernaga">
+      <color color1="1.0 1.0 1.0 1.0" color2="1.0 1.0 1.0 1.0" time="0.0"/>
+      <direction d1="0.1 0.1 0.1" d2="-0.1 0.15 0.1" time="0.0">
+        <time t="1.0" dir1="0.1 0.1 0.1" dir2="-0.1 0.15 -0.2"/>
+        <time t="2.0" dir1="0.0 0.0 0.1" dir2="-0.2 0.15 -0.2"/>
+        <time t="3.0" dir1="0.1 0.1 0.2" dir2="0.3 0.15 -0.2"/>
+        <time t="4.0" dir1="-0.1 0.1 0.2" dir2="0.1 0.15 -0.2"/>
+        <time t="5.0" dir1="0.2 0.05 0.1" dir2="-0.1 0.05 -0.2"/>
+        <time t="6.0" dir1="0.1 0.0 0.2" dir2="-0.1 0.0 -0.1"/>
+      </direction>
+      <size mins="0.04" maxs="0.04" time="0.0"/>
+      <life_time life1="7.0" life2="7.0"/>
+      <emit_rate er1="0.05" er2="0.05"/>
+      <gravity gr="false"/>
+      <velocity vel="1.0 1.0 1.0" time="0.0"/>
+      <angle ang="0.1" time="0.0"/>
+      <texture tex="Data/Textures/particulas/particula luciernaga.dds"/>
+    </ParticleEmitter>
+    <ParticleEmitter name="pCeniza">
+      <color color1="1.0 1.0 1.0 1.0" color2="1.0 1.0 1.0 1.0" time="0.0">
+        <time t="8.0" col1="1.0 1.0 1.0 0.7" col2="1.0 1.0 1.0 0.7"/>
+        <time t="9.0" col1="1.0 1.0 1.0 0.5" col2="1.0 1.0 1.0 0.5"/>
+        <time t="10.0" col1="1.0 1.0 1.0 0.3" col2="1.0 1.0 1.0 0.3"/>
+      </color>
+      <direction d1="0.0 0.1 -0.01" d2="0.0 0.1 -0.01" time="0.0">
+        <time t="1.0" dir1="0.0 0.1 0.01" dir2="0.0 0.1 0.01"/>
+        <time t="2.0" dir1="0.0 -0.1 0.0" dir2="0.0 -0.1 0.0"/>
+        <time t="8.0" dir1="0.0 0.1 0.0" dir2="0.0 0.1 0.0"/>
+      </direction>
+      <size mins="0.08" maxs="0.08" time="0.0"/>
+      <life_time life1="12.0" life2="12.0"/>
+      <emit_rate er1="0.004" er2="0.004"/>
+      <gravity gr="false"/>
+      <velocity vel="1.0 14.0 18.0" time="0.0">
+        <time t="2.0" v="1.0 3.0 1.0"/>
+      </velocity>
+      <angle ang="1.0" time="0.0"/>
+      <texture tex="Data/Textures/particulas/particula ceniza.dds"/>
+    </ParticleEmitter>
+    <ParticleEmitter name="pVomito">
+      <color color1="1.0 1.0 1.0 1.0" color2="1.0 1.0 1.0 1.0" time="0.0"/>
+      <direction d1="0.0 0.0 0.0" d2="0.0 0.0 0.0" time="0.0"/>
+      <size mins="0.3" maxs="0.3" time="0.0"/>
+      <life_time life1="0.5" life2="0.5"/>
+      <emit_rate er1="0.05" er2="0.05"/>
+      <gravity gr="false"/>
+      <velocity vel="1.0 1.0 1.0" time="0.0"/>
+      <angle ang="3.5" time="0.0"/>
+      <texture tex="Data/Textures/vomito/part vomito3.dds"/>
+    </ParticleEmitter>
+    <ParticleEmitter name="pVomito2">
+      <color color1="1.0 1.0 1.0 1.0" color2="1.0 1.0 1.0 1.0" time="0.0"/>
+      <direction d1="0.0 0.0 0.0" d2="0.0 0.0 0.0" time="0.0"/>
+      <size mins="0.2" maxs="0.2" time="0.0"/>
+      <life_time life1="0.5" life2="0.5"/>
+      <emit_rate er1="0.3" er2="0.3"/>
+      <gravity gr="false"/>
+      <velocity vel="1.0 1.0 1.0" time="0.0"/>
+      <angle ang="1.0" time="0.0"/>
+      <texture tex="Data/Textures/vomito/part vomito2.dds"/>
+    </ParticleEmitter>
+  </ParticleEmitters>
+  <Instances>
+    <Instance id="pVomito" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito2" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito2" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito2" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito2" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito2" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pVomito2" pos1="0.0 -1.0 0.0" pos2="0.0 -1.0 0.0"/>
+    <Instance id="pLuciernaga" pos1="58.0 0.0 0.2" pos2="60.0 0.3 -1.3"/>
+    <Instance id="pLuciernaga" pos1="46.0 0.0 -13.0" pos2="47.4 0.1 -14.0"/>
+    <Instance id="pLuciernaga" pos1="26.8 0.0 6.5" pos2="28.2 0.1 5.4"/>
+    <Instance id="pFuente" pos1="64.0 1.5 -20.59" pos2="64.0 1.5 -20.71"/>
+    <Instance id="pFuente" pos1="64.0 1.5 -20.59" pos2="64.0 1.5 -20.71"/>
+    <Instance id="pFuente" pos1="64.0 1.5 -20.59" pos2="64.0 1.5 -20.71"/>
+    <Instance id="pCeniza" pos1="23.0 -3.0 11.0" pos2="23.3 -3.0 15.0"/>
+    <Instance id="pCeniza" pos1="23.0 -0.5 11.0" pos2="23.3 -0.5 15.0"/>
+    <Instance id="pCeniza" pos1="23.0 -1.0 11.0" pos2="23.3 -1.0 15.0"/>
+    <Instance id="pCeniza" pos1="23.0 -2.0 11.0" pos2="23.3 -2.0 15.0"/>
+    <Instance id="pCeniza" pos1="19.5 -3.0 11.0" pos2="19.7 -3.0 15.0"/>
+    <Instance id="pCeniza" pos1="19.5 -0.5 11.0" pos2="19.7 -0.5 15.0"/>
+    <Instance id="pCeniza" pos1="19.5 -1.0 11.0" pos2="19.7 -1.0 15.0"/>
+    <Instance id="pCeniza" pos1="19.5 -2.0 11.0" pos2="19.7 -2.0 15.0"/>
+  </Instances>
+</ParticleManager>

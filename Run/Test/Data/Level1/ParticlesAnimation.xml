@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BillboardAnimation>
+  <Billboard>
+    <Animation name="pNiebla">
+      <color col="1.0 1.0 1.0 0.9"/>
+      <size siz="5.0"/>
+      <numText num="1"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="true"/>
+      <texture tex1="Data/Textures/niebla/niebla nueva2.dds">
+      </texture>
+    </Animation>
+    <Animation name="pHumo">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="3.0"/>
+      <numText num="29"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="false"/>
+      <texture tex1="Data/Textures/humo/humo1.dds"   tex2="Data/Textures/humo/humo2.dds"   tex3="Data/Textures/humo/humo3.dds"   tex4="Data/Textures/humo/humo4.dds"
+               tex5="Data/Textures/humo/humo5.dds"   tex6="Data/Textures/humo/humo6.dds"   tex7="Data/Textures/humo/humo7.dds"   tex8="Data/Textures/humo/humo8.dds"
+               tex9="Data/Textures/humo/humo9.dds"   tex10="Data/Textures/humo/humo10.dds" tex11="Data/Textures/humo/humo11.dds" tex12="Data/Textures/humo/humo12.dds"
+               tex13="Data/Textures/humo/humo13.dds" tex14="Data/Textures/humo/humo14.dds" tex15="Data/Textures/humo/humo15.dds" tex16="Data/Textures/humo/humo16.dds"
+               tex17="Data/Textures/humo/humo17.dds" tex18="Data/Textures/humo/humo18.dds" tex19="Data/Textures/humo/humo19.dds" tex20="Data/Textures/humo/humo20.dds"
+               tex21="Data/Textures/humo/humo21.dds" tex22="Data/Textures/humo/humo22.dds" tex23="Data/Textures/humo/humo23.dds" tex24="Data/Textures/humo/humo24.dds"
+               tex25="Data/Textures/humo/humo25.dds" tex26="Data/Textures/humo/humo26.dds" tex27="Data/Textures/humo/humo27.dds" tex28="Data/Textures/humo/humo28.dds"
+               tex29="Data/Textures/humo/humo29.dds">
+      </texture>
+    </Animation>
+    <Animation name="pSangre1">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="0.8"/>
+      <numText num="7"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="false"/>
+      <texture tex1="Data/Textures/sangre1/sangre1.dds" tex2="Data/Textures/sangre1/sangre2.dds" tex3="Data/Textures/sangre1/sangre3.dds" tex4="Data/Textures/sangre1/sangre4.dds"
+               tex5="Data/Textures/sangre1/sangre5.dds" tex6="Data/Textures/sangre1/sangre6.dds" tex7="Data/Textures/sangre1/sangre7.dds">
+      </texture>
+    </Animation>
+    <Animation name="pSangre2">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="0.8"/>
+      <numText num="7"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="false"/>
+      <texture tex1="Data/Textures/sangre2/sangre1.dds" tex2="Data/Textures/sangre2/sangre2.dds" tex3="Data/Textures/sangre2/sangre3.dds" tex4="Data/Textures/sangre2/sangre4.dds"
+               tex5="Data/Textures/sangre2/sangre5.dds" tex6="Data/Textures/sangre2/sangre6.dds" tex7="Data/Textures/sangre2/sangre7.dds">
+      </texture>
+    </Animation>
+    <Animation name="pFuegoA">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="0.82"/>
+      <numText num="23"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="true"/>
+      <texture tex1="Data/Textures/fuego/fuego0001.png"   tex2="Data/Textures/fuego/fuego0002.png"  tex3="Data/Textures/fuego/fuego0003.png"   tex4="Data/Textures/fuego/fuego0004.png"
+               tex5="Data/Textures/fuego/fuego0005.png"   tex6="Data/Textures/fuego/fuego0006.png"  tex7="Data/Textures/fuego/fuego0007.png"   tex8="Data/Textures/fuego/fuego0008.png"
+               tex9="Data/Textures/fuego/fuego0009.png"   tex10="Data/Textures/fuego/fuego0010.png" tex11="Data/Textures/fuego/fuego0011.png"  tex12="Data/Textures/fuego/fuego0012.png"
+               tex13="Data/Textures/fuego/fuego0013.png"  tex14="Data/Textures/fuego/fuego0014.png" tex15="Data/Textures/fuego/fuego0015.png"  tex16="Data/Textures/fuego/fuego0016.png"
+               tex17="Data/Textures/fuego/fuego0017.png"  tex18="Data/Textures/fuego/fuego0018.png" tex19="Data/Textures/fuego/fuego0019.png"  tex20="Data/Textures/fuego/fuego0020.png"
+               tex21="Data/Textures/fuego/fuego0021.png"  tex22="Data/Textures/fuego/fuego0022.png" tex23="Data/Textures/fuego/fuego0023.png">
+      </texture>
+    </Animation>
+    <Animation name="pFuente">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="1.3"/>
+      <numText num="54"/>
+      <timePerImage time ="0.03"/>
+      <loop bucle="true"/>
+      <texture tex1="Data/Textures/fuente/agua0001.png"   tex2="Data/Textures/fuente/agua0002.png"  tex3="Data/Textures/fuente/agua0003.png"   tex4="Data/Textures/fuente/agua0004.png"
+               tex5="Data/Textures/fuente/agua0005.png"   tex6="Data/Textures/fuente/agua0006.png"  tex7="Data/Textures/fuente/agua0007.png"   tex8="Data/Textures/fuente/agua0008.png"
+               tex9="Data/Textures/fuente/agua0009.png"   tex10="Data/Textures/fuente/agua0010.png" tex11="Data/Textures/fuente/agua0011.png"  tex12="Data/Textures/fuente/agua0012.png"
+               tex13="Data/Textures/fuente/agua0013.png"  tex14="Data/Textures/fuente/agua0014.png" tex15="Data/Textures/fuente/agua0015.png"  tex16="Data/Textures/fuente/agua0016.png"
+               tex17="Data/Textures/fuente/agua0017.png"  tex18="Data/Textures/fuente/agua0018.png" tex19="Data/Textures/fuente/agua0019.png"  tex20="Data/Textures/fuente/agua0020.png"
+               tex21="Data/Textures/fuente/agua0021.png"  tex22="Data/Textures/fuente/agua0022.png" tex23="Data/Textures/fuente/agua0023.png"  tex24="Data/Textures/fuente/agua0024.png"  
+               tex25="Data/Textures/fuente/agua0025.png"  tex26="Data/Textures/fuente/agua0026.png" tex27="Data/Textures/fuente/agua0027.png"  tex28="Data/Textures/fuente/agua0028.png"
+               tex29="Data/Textures/fuente/agua0029.png"  tex30="Data/Textures/fuente/agua0030.png" tex31="Data/Textures/fuente/agua0031.png"  tex32="Data/Textures/fuente/agua0032.png"
+               tex33="Data/Textures/fuente/agua0033.png"  tex34="Data/Textures/fuente/agua0034.png" tex35="Data/Textures/fuente/agua0035.png"  tex36="Data/Textures/fuente/agua0036.png"
+               tex37="Data/Textures/fuente/agua0037.png"  tex38="Data/Textures/fuente/agua0038.png" tex39="Data/Textures/fuente/agua0039.png"  tex40="Data/Textures/fuente/agua0040.png"
+               tex41="Data/Textures/fuente/agua0041.png"  tex42="Data/Textures/fuente/agua0042.png" tex43="Data/Textures/fuente/agua0043.png"  tex44="Data/Textures/fuente/agua0044.png"
+               tex45="Data/Textures/fuente/agua0045.png"  tex46="Data/Textures/fuente/agua0046.png" tex47="Data/Textures/fuente/agua0047.png"  tex48="Data/Textures/fuente/agua0048.png"
+               tex49="Data/Textures/fuente/agua0049.png"  tex50="Data/Textures/fuente/agua0050.png" tex51="Data/Textures/fuente/agua0051.png"  tex52="Data/Textures/fuente/agua0052.png"
+               tex53="Data/Textures/fuente/agua0053.png"  tex54="Data/Textures/fuente/agua0054.png">
+      </texture>
+    </Animation>
+    <Animation name="pTormenta">
+      <color col="1.0 1.0 1.0 0.9"/>
+      <size siz="100.0"/>
+      <numText num="211"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="true"/>
+      <texture tex1="Data/Textures/tormenta/tormenta20001.png"    tex2="Data/Textures/tormenta/tormenta20002.png"   tex3="Data/Textures/tormenta/tormenta20003.png"    tex4="Data/Textures/tormenta/tormenta20004.png"
+               tex5="Data/Textures/tormenta/tormenta20005.png"    tex6="Data/Textures/tormenta/tormenta20006.png"   tex7="Data/Textures/tormenta/tormenta20007.png"    tex8="Data/Textures/tormenta/tormenta20008.png"
+               tex9="Data/Textures/tormenta/tormenta20009.png"    tex10="Data/Textures/tormenta/tormenta20010.png"  tex11="Data/Textures/tormenta/tormenta20011.png"   tex12="Data/Textures/tormenta/tormenta20012.png"
+               tex13="Data/Textures/tormenta/tormenta20013.png"   tex14="Data/Textures/tormenta/tormenta20014.png"  tex15="Data/Textures/tormenta/tormenta20015.png"   tex16="Data/Textures/tormenta/tormenta20016.png"
+               tex17="Data/Textures/tormenta/tormenta20017.png"   tex18="Data/Textures/tormenta/tormenta20018.png"  tex19="Data/Textures/tormenta/tormenta20019.png"   tex20="Data/Textures/tormenta/tormenta20020.png"
+               tex21="Data/Textures/tormenta/tormenta20021.png"   tex22="Data/Textures/tormenta/tormenta20022.png"  tex23="Data/Textures/tormenta/tormenta20023.png"   tex24="Data/Textures/tormenta/tormenta20024.png"
+               tex25="Data/Textures/tormenta/tormenta20025.png"   tex26="Data/Textures/tormenta/tormenta20026.png"  tex27="Data/Textures/tormenta/tormenta20027.png"   tex28="Data/Textures/tormenta/tormenta20028.png"
+               tex29="Data/Textures/tormenta/tormenta20029.png"   tex30="Data/Textures/tormenta/tormenta20030.png"  tex31="Data/Textures/tormenta/tormenta20031.png"   tex32="Data/Textures/tormenta/tormenta20032.png"
+               tex33="Data/Textures/tormenta/tormenta20033.png"   tex34="Data/Textures/tormenta/tormenta20034.png"  tex35="Data/Textures/tormenta/tormenta20035.png"   tex36="Data/Textures/tormenta/tormenta20036.png"
+               tex37="Data/Textures/tormenta/tormenta20037.png"   tex38="Data/Textures/tormenta/tormenta20038.png"  tex39="Data/Textures/tormenta/tormenta20039.png"   tex40="Data/Textures/tormenta/tormenta20040.png"
+               tex41="Data/Textures/tormenta/tormenta20041.png"   tex42="Data/Textures/tormenta/tormenta20042.png"  tex43="Data/Textures/tormenta/tormenta20043.png"   tex44="Data/Textures/tormenta/tormenta20044.png"
+               tex45="Data/Textures/tormenta/tormenta20045.png"   tex46="Data/Textures/tormenta/tormenta20046.png"  tex47="Data/Textures/tormenta/tormenta20047.png"   tex48="Data/Textures/tormenta/tormenta20048.png"
+               tex49="Data/Textures/tormenta/tormenta20049.png"   tex50="Data/Textures/tormenta/tormenta20050.png"  tex51="Data/Textures/tormenta/tormenta20051.png"   tex52="Data/Textures/tormenta/tormenta20052.png"
+               tex53="Data/Textures/tormenta/tormenta20053.png"   tex54="Data/Textures/tormenta/tormenta20054.png"  tex55="Data/Textures/tormenta/tormenta20055.png"   tex56="Data/Textures/tormenta/tormenta20056.png"
+               tex57="Data/Textures/tormenta/tormenta20057.png"   tex58="Data/Textures/tormenta/tormenta20058.png"  tex59="Data/Textures/tormenta/tormenta20059.png"   tex60="Data/Textures/tormenta/tormenta20060.png"
+               tex61="Data/Textures/tormenta/tormenta20061.png"   tex62="Data/Textures/tormenta/tormenta20062.png"  tex63="Data/Textures/tormenta/tormenta20063.png"   tex64="Data/Textures/tormenta/tormenta20064.png"
+               tex65="Data/Textures/tormenta/tormenta20065.png"   tex66="Data/Textures/tormenta/tormenta20066.png"  tex67="Data/Textures/tormenta/tormenta20067.png"   tex68="Data/Textures/tormenta/tormenta20068.png"
+               tex69="Data/Textures/tormenta/tormenta20069.png"   tex70="Data/Textures/tormenta/tormenta20070.png"  tex71="Data/Textures/tormenta/tormenta20071.png"   tex72="Data/Textures/tormenta/tormenta20072.png"
+               tex73="Data/Textures/tormenta/tormenta20073.png"   tex74="Data/Textures/tormenta/tormenta20074.png"  tex75="Data/Textures/tormenta/tormenta20075.png"   tex76="Data/Textures/tormenta/tormenta20076.png"
+               tex77="Data/Textures/tormenta/tormenta20077.png"   tex78="Data/Textures/tormenta/tormenta20078.png"  tex79="Data/Textures/tormenta/tormenta20079.png"   tex80="Data/Textures/tormenta/tormenta20080.png"
+               tex81="Data/Textures/tormenta/tormenta20081.png"   tex82="Data/Textures/tormenta/tormenta20082.png"  tex83="Data/Textures/tormenta/tormenta20083.png"   tex84="Data/Textures/tormenta/tormenta20084.png"
+               tex85="Data/Textures/tormenta/tormenta20085.png"   tex86="Data/Textures/tormenta/tormenta20086.png"  tex87="Data/Textures/tormenta/tormenta20087.png"   tex88="Data/Textures/tormenta/tormenta20088.png"
+               tex89="Data/Textures/tormenta/tormenta20089.png"   tex90="Data/Textures/tormenta/tormenta20090.png"  tex91="Data/Textures/tormenta/tormenta20091.png"   tex92="Data/Textures/tormenta/tormenta20092.png"
+               tex93="Data/Textures/tormenta/tormenta20093.png"   tex94="Data/Textures/tormenta/tormenta20094.png"  tex95="Data/Textures/tormenta/tormenta20095.png"   tex96="Data/Textures/tormenta/tormenta20096.png"
+               tex97="Data/Textures/tormenta/tormenta20097.png"   tex98="Data/Textures/tormenta/tormenta20098.png"  tex99="Data/Textures/tormenta/tormenta20099.png"   tex100="Data/Textures/tormenta/tormenta20100.png"
+               tex101="Data/Textures/tormenta/tormenta20101.png"  tex102="Data/Textures/tormenta/tormenta20102.png" tex103="Data/Textures/tormenta/tormenta20103.png"  tex104="Data/Textures/tormenta/tormenta20104.png"
+               tex105="Data/Textures/tormenta/tormenta20105.png"  tex106="Data/Textures/tormenta/tormenta20106.png" tex107="Data/Textures/tormenta/tormenta20107.png"  tex108="Data/Textures/tormenta/tormenta20108.png"
+               tex109="Data/Textures/tormenta/tormenta20109.png"  tex110="Data/Textures/tormenta/tormenta20110.png" tex111="Data/Textures/tormenta/tormenta20111.png"  tex112="Data/Textures/tormenta/tormenta20112.png"
+               tex113="Data/Textures/tormenta/tormenta20113.png"  tex114="Data/Textures/tormenta/tormenta20114.png" tex115="Data/Textures/tormenta/tormenta20115.png"  tex116="Data/Textures/tormenta/tormenta20116.png"
+               tex117="Data/Textures/tormenta/tormenta20117.png"  tex118="Data/Textures/tormenta/tormenta20118.png" tex119="Data/Textures/tormenta/tormenta20119.png"  tex120="Data/Textures/tormenta/tormenta20120.png"
+               tex121="Data/Textures/tormenta/tormenta20121.png"  tex122="Data/Textures/tormenta/tormenta20122.png" tex123="Data/Textures/tormenta/tormenta20123.png"  tex124="Data/Textures/tormenta/tormenta20124.png"
+               tex125="Data/Textures/tormenta/tormenta20125.png"  tex126="Data/Textures/tormenta/tormenta20126.png" tex127="Data/Textures/tormenta/tormenta20127.png"  tex128="Data/Textures/tormenta/tormenta20128.png"
+               tex129="Data/Textures/tormenta/tormenta20129.png"  tex130="Data/Textures/tormenta/tormenta20130.png" tex131="Data/Textures/tormenta/tormenta20131.png"  tex132="Data/Textures/tormenta/tormenta20132.png"
+               tex133="Data/Textures/tormenta/tormenta20133.png"  tex134="Data/Textures/tormenta/tormenta20134.png" tex135="Data/Textures/tormenta/tormenta20135.png"  tex136="Data/Textures/tormenta/tormenta20136.png"
+               tex137="Data/Textures/tormenta/tormenta20137.png"  tex138="Data/Textures/tormenta/tormenta20138.png" tex139="Data/Textures/tormenta/tormenta20139.png"  tex140="Data/Textures/tormenta/tormenta20140.png"
+               tex141="Data/Textures/tormenta/tormenta20141.png"  tex142="Data/Textures/tormenta/tormenta20142.png" tex143="Data/Textures/tormenta/tormenta20143.png"  tex144="Data/Textures/tormenta/tormenta20144.png"
+               tex145="Data/Textures/tormenta/tormenta20145.png"  tex146="Data/Textures/tormenta/tormenta20146.png" tex147="Data/Textures/tormenta/tormenta20147.png"  tex148="Data/Textures/tormenta/tormenta20148.png"
+               tex149="Data/Textures/tormenta/tormenta20149.png"  tex150="Data/Textures/tormenta/tormenta20150.png" tex151="Data/Textures/tormenta/tormenta20151.png"  tex152="Data/Textures/tormenta/tormenta20152.png"
+               tex153="Data/Textures/tormenta/tormenta20153.png"  tex154="Data/Textures/tormenta/tormenta20154.png" tex155="Data/Textures/tormenta/tormenta20155.png"  tex156="Data/Textures/tormenta/tormenta20156.png"
+               tex157="Data/Textures/tormenta/tormenta20157.png"  tex158="Data/Textures/tormenta/tormenta20158.png" tex159="Data/Textures/tormenta/tormenta20159.png"  tex160="Data/Textures/tormenta/tormenta20160.png"
+               tex161="Data/Textures/tormenta/tormenta20161.png"  tex162="Data/Textures/tormenta/tormenta20162.png" tex163="Data/Textures/tormenta/tormenta20163.png"  tex164="Data/Textures/tormenta/tormenta20164.png"
+               tex165="Data/Textures/tormenta/tormenta20165.png"  tex166="Data/Textures/tormenta/tormenta20166.png" tex167="Data/Textures/tormenta/tormenta20167.png"  tex168="Data/Textures/tormenta/tormenta20168.png"
+               tex169="Data/Textures/tormenta/tormenta20169.png"  tex170="Data/Textures/tormenta/tormenta20170.png" tex171="Data/Textures/tormenta/tormenta20171.png"  tex172="Data/Textures/tormenta/tormenta20172.png"
+               tex173="Data/Textures/tormenta/tormenta20173.png"  tex174="Data/Textures/tormenta/tormenta20174.png" tex175="Data/Textures/tormenta/tormenta20175.png"  tex176="Data/Textures/tormenta/tormenta20176.png"
+               tex177="Data/Textures/tormenta/tormenta20177.png"  tex178="Data/Textures/tormenta/tormenta20178.png" tex179="Data/Textures/tormenta/tormenta20179.png"  tex180="Data/Textures/tormenta/tormenta20180.png"
+               tex181="Data/Textures/tormenta/tormenta20181.png"  tex182="Data/Textures/tormenta/tormenta20182.png" tex183="Data/Textures/tormenta/tormenta20183.png"  tex184="Data/Textures/tormenta/tormenta20184.png"
+               tex185="Data/Textures/tormenta/tormenta20185.png"  tex186="Data/Textures/tormenta/tormenta20186.png" tex187="Data/Textures/tormenta/tormenta20187.png"  tex188="Data/Textures/tormenta/tormenta20188.png"
+               tex189="Data/Textures/tormenta/tormenta20189.png"  tex190="Data/Textures/tormenta/tormenta20190.png" tex191="Data/Textures/tormenta/tormenta20191.png"  tex192="Data/Textures/tormenta/tormenta20192.png"
+               tex193="Data/Textures/tormenta/tormenta20193.png"  tex194="Data/Textures/tormenta/tormenta20194.png" tex195="Data/Textures/tormenta/tormenta20195.png"  tex196="Data/Textures/tormenta/tormenta20196.png"
+               tex197="Data/Textures/tormenta/tormenta20197.png"  tex198="Data/Textures/tormenta/tormenta20198.png" tex199="Data/Textures/tormenta/tormenta20199.png"  tex200="Data/Textures/tormenta/tormenta20200.png"
+               tex201="Data/Textures/tormenta/tormenta20202.png"  tex202="Data/Textures/tormenta/tormenta20202.png" tex203="Data/Textures/tormenta/tormenta20203.png"  tex204="Data/Textures/tormenta/tormenta20204.png"
+               tex205="Data/Textures/tormenta/tormenta20205.png"  tex206="Data/Textures/tormenta/tormenta20206.png" tex207="Data/Textures/tormenta/tormenta20207.png"  tex208="Data/Textures/tormenta/tormenta20208.png"
+               tex209="Data/Textures/tormenta/tormenta20209.png"  tex210="Data/Textures/tormenta/tormenta20210.png" tex211="Data/Textures/tormenta/tormenta20211.png">
+      </texture>
+    </Animation>
+    <Animation name="pHitodama">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="1.0"/>
+      <numText num="80"/>
+      <timePerImage time ="0.07"/>
+      <loop bucle="true"/>
+      <texture tex1="Data/Textures/hitodama/finallow0001.png"    tex2="Data/Textures/hitodama/finallow0002.png"   tex3="Data/Textures/hitodama/finallow0003.png"    tex4="Data/Textures/hitodama/finallow0004.png"
+               tex5="Data/Textures/hitodama/finallow0005.png"    tex6="Data/Textures/hitodama/finallow0006.png"   tex7="Data/Textures/hitodama/finallow0007.png"    tex8="Data/Textures/hitodama/finallow0008.png"
+               tex9="Data/Textures/hitodama/finallow0009.png"    tex10="Data/Textures/hitodama/finallow0010.png"  tex11="Data/Textures/hitodama/finallow0011.png"   tex12="Data/Textures/hitodama/finallow0012.png"
+               tex13="Data/Textures/hitodama/finallow0013.png"   tex14="Data/Textures/hitodama/finallow0014.png"  tex15="Data/Textures/hitodama/finallow0015.png"   tex16="Data/Textures/hitodama/finallow0016.png"
+               tex17="Data/Textures/hitodama/finallow0017.png"   tex18="Data/Textures/hitodama/finallow0018.png"  tex19="Data/Textures/hitodama/finallow0019.png"   tex20="Data/Textures/hitodama/finallow0020.png"
+               tex21="Data/Textures/hitodama/finallow0021.png"   tex22="Data/Textures/hitodama/finallow0022.png"  tex23="Data/Textures/hitodama/finallow0023.png"   tex24="Data/Textures/hitodama/finallow0024.png"
+               tex25="Data/Textures/hitodama/finallow0025.png"   tex26="Data/Textures/hitodama/finallow0026.png"  tex27="Data/Textures/hitodama/finallow0027.png"   tex28="Data/Textures/hitodama/finallow0028.png"
+               tex29="Data/Textures/hitodama/finallow0029.png"   tex30="Data/Textures/hitodama/finallow0030.png"  tex31="Data/Textures/hitodama/finallow0031.png"   tex32="Data/Textures/hitodama/finallow0032.png"
+               tex33="Data/Textures/hitodama/finallow0033.png"   tex34="Data/Textures/hitodama/finallow0034.png"  tex35="Data/Textures/hitodama/finallow0035.png"   tex36="Data/Textures/hitodama/finallow0036.png"
+               tex37="Data/Textures/hitodama/finallow0037.png"   tex38="Data/Textures/hitodama/finallow0038.png"  tex39="Data/Textures/hitodama/finallow0039.png"   tex40="Data/Textures/hitodama/finallow0040.png"
+               tex41="Data/Textures/hitodama/finallow0041.png"   tex42="Data/Textures/hitodama/finallow0042.png"  tex43="Data/Textures/hitodama/finallow0043.png"   tex44="Data/Textures/hitodama/finallow0044.png"
+               tex45="Data/Textures/hitodama/finallow0045.png"   tex46="Data/Textures/hitodama/finallow0046.png"  tex47="Data/Textures/hitodama/finallow0047.png"   tex48="Data/Textures/hitodama/finallow0048.png"
+               tex49="Data/Textures/hitodama/finallow0049.png"   tex50="Data/Textures/hitodama/finallow0050.png"  tex51="Data/Textures/hitodama/finallow0051.png"   tex52="Data/Textures/hitodama/finallow0052.png"
+               tex53="Data/Textures/hitodama/finallow0053.png"   tex54="Data/Textures/hitodama/finallow0054.png"  tex55="Data/Textures/hitodama/finallow0055.png"   tex56="Data/Textures/hitodama/finallow0056.png"
+               tex57="Data/Textures/hitodama/finallow0057.png"   tex58="Data/Textures/hitodama/finallow0058.png"  tex59="Data/Textures/hitodama/finallow0059.png"   tex60="Data/Textures/hitodama/finallow0060.png"
+               tex61="Data/Textures/hitodama/finallow0061.png"   tex62="Data/Textures/hitodama/finallow0062.png"  tex63="Data/Textures/hitodama/finallow0063.png"   tex64="Data/Textures/hitodama/finallow0064.png"
+               tex65="Data/Textures/hitodama/finallow0065.png"   tex66="Data/Textures/hitodama/finallow0066.png"  tex67="Data/Textures/hitodama/finallow0067.png"   tex68="Data/Textures/hitodama/finallow0068.png"
+               tex69="Data/Textures/hitodama/finallow0069.png"   tex70="Data/Textures/hitodama/finallow0070.png"  tex71="Data/Textures/hitodama/finallow0071.png"   tex72="Data/Textures/hitodama/finallow0072.png"
+               tex73="Data/Textures/hitodama/finallow0073.png"   tex74="Data/Textures/hitodama/finallow0074.png"  tex75="Data/Textures/hitodama/finallow0075.png"   tex76="Data/Textures/hitodama/finallow0076.png"
+               tex77="Data/Textures/hitodama/finallow0077.png"   tex78="Data/Textures/hitodama/finallow0078.png"  tex79="Data/Textures/hitodama/finallow0079.png"   tex80="Data/Textures/hitodama/finallow0080.png">
+      </texture>
+    </Animation>
+    <Animation name="pPuerta">
+      <color col="1.0 1.0 1.0 1.0"/>
+      <size siz="3.2"/>
+      <numText num="35"/>
+      <timePerImage time ="0.09"/>
+      <loop bucle="false"/>
+      <texture tex1="Data/Textures/puerta/PUERT abriendose0000.png"    tex2="Data/Textures/puerta/PUERT abriendose0001.png"    tex3="Data/Textures/puerta/PUERT abriendose0002.png"   tex4="Data/Textures/puerta/PUERT abriendose0003.png"    
+               tex5="Data/Textures/puerta/PUERT abriendose0004.png"    tex6="Data/Textures/puerta/PUERT abriendose0005.png"    tex7="Data/Textures/puerta/PUERT abriendose0006.png"   tex8="Data/Textures/puerta/PUERT abriendose0007.png"    
+               tex9="Data/Textures/puerta/PUERT abriendose0008.png"    tex10="Data/Textures/puerta/PUERT abriendose0009.png"   tex11="Data/Textures/puerta/PUERT abriendose0010.png"  tex12="Data/Textures/puerta/PUERT abriendose0011.png"   
+               tex13="Data/Textures/puerta/PUERT abriendose0012.png"   tex14="Data/Textures/puerta/PUERT abriendose0013.png"   tex15="Data/Textures/puerta/PUERT abriendose0014.png"  tex16="Data/Textures/puerta/PUERT abriendose0015.png"   
+               tex17="Data/Textures/puerta/PUERT abriendose0016.png"   tex18="Data/Textures/puerta/PUERT abriendose0017.png"   tex19="Data/Textures/puerta/PUERT abriendose0018.png"  tex20="Data/Textures/puerta/PUERT abriendose0019.png"   
+               tex21="Data/Textures/puerta/PUERT abriendose0020.png"   tex22="Data/Textures/puerta/PUERT abriendose0021.png"   tex23="Data/Textures/puerta/PUERT abriendose0022.png"  tex24="Data/Textures/puerta/PUERT abriendose0023.png"   
+               tex25="Data/Textures/puerta/PUERT abriendose0024.png"   tex26="Data/Textures/puerta/PUERT abriendose0025.png"   tex27="Data/Textures/puerta/PUERT abriendose0026.png"  tex28="Data/Textures/puerta/PUERT abriendose0027.png"   
+               tex29="Data/Textures/puerta/PUERT abriendose0028.png"   tex30="Data/Textures/puerta/PUERT abriendose0029.png"   tex31="Data/Textures/puerta/PUERT abriendose0030.png"  tex32="Data/Textures/puerta/PUERT abriendose0031.png"   
+               tex33="Data/Textures/puerta/PUERT abriendose0032.png"   tex34="Data/Textures/puerta/PUERT abriendose0033.png"   tex35="Data/Textures/puerta/PUERT abriendose0034.png">
+      </texture>
+    </Animation>
+  </Billboard>
+  <Instances>
+    <Instance id="pNiebla"   pos="63.4 2.2 12.6"/>
+    <Instance id="pNiebla"   pos="62.4 2.0 13.0"/>
+    <Instance id="pNiebla"   pos="61.4 1.8 12.8"/>
+    <Instance id="pNiebla"   pos="60.4 2.2 13.2"/>
+    <Instance id="pHumo"     pos="0.0 -10.0 0.0"/>
+    <Instance id="pHumo"     pos="0.0 -10.0 0.0"/>
+    <Instance id="pHumo"     pos="0.0 -10.0 0.0"/>
+    <Instance id="pHumo"     pos="0.0 -10.0 0.0"/>
+    <Instance id="pHumo"     pos="0.0 -10.0 0.0"/>
+    <Instance id="pHumo"     pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre1"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre1"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre1"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre1"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre1"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre2"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre2"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre2"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre2"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pSangre2"  pos="0.0 -10.0 0.0"/>
+    <Instance id="pFuegoA"   pos="13.93 2.1 -2.42"/>
+    <Instance id="pFuegoA"   pos="13.93 2.1 -4.9"/>
+    <Instance id="pFuegoA"   pos="33.7 1.8 -9.5"/>
+    <Instance id="pFuegoA"   pos="31.75 2.8 0.25"/>
+    <Instance id="pFuegoA"   pos="45.72 2.8 0.73"/>
+    <Instance id="pFuegoA"   pos="45.65 2.8 -7.7"/>
+    <Instance id="pFuegoA"   pos="30.77 1.8 -12.39"/>
+    <Instance id="pFuente"   pos="63.5 0.55 -20.63"/>
+    <Instance id="pTormenta" pos="120.0 20.0 -5.0"/>
+    <Instance id="pHitodama" pos="18.9 2.9 -20.4"/>
+    <Instance id="pPuerta"  pos="0.0 -10.0 0.0"/>
+  </Instances>
+</BillboardAnimation>

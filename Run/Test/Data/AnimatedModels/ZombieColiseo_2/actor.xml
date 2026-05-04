@@ -1,0 +1,7 @@
+<actor name="zombiecoliseo2" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DInstancingTechnique">
+	<skeleton filename="zombie_skeleton.CSF"/>
+	<mesh filename="zombie_mesh.CMF"/>
+	<texture filename="difuse-zombie.dds"/>
+	<animation name="zombie_idle" filename="zombie_idle.CAF"/>
+	<animation name="zombie_animaColiseo2" filename="zombie_animaColiseo2.CAF"/>
+</actor>

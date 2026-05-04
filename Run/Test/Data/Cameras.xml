@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cameras>
+  <camera name="Camera0" default="true" position="0.0 0.0 0.0" yaw="0.0f" pitch="-0.39f" roll="0" znear="0.1f" zfar="300.f" fov="0.78f" zoom="4.0f" static="false" />
+  <!--<camera name="Camera0" default="true" position="0 0 0" yaw="1.0f" pitch="-0.39f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="10.f"/>
+	<camera name="Camera1" default="false" position="0 1 0" yaw="1.0f" pitch="0.1f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="10.f"/>
+	<camera name="Camera2" default="false" position="1 1 1" yaw="1.6f" pitch="-1.0f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="0"/>
+	<camera name="Camera3" default="false" position="3 2 2" yaw="1.4f" pitch="1.0" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="10.f"/>
+	<camera name="Camera4" default="false" position="7 3 3" yaw="1.6f" pitch="0" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="0"/>
+	<camera name="Camera5" default="false" position="10 4 4" yaw="0.6f" pitch="2.1f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="10.f"/>
+	<camera name="Camera6" default="false" position="5 5 5" yaw="-1.6f" pitch="-2.1f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="0"/>
+	<camera name="Camera7" default="false" position="6 6 12" yaw="4.6f" pitch="2.0" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="10.f"/>
+	<camera name="Camera8" default="false" position="4 7 10" yaw="-2.6f" pitch="1.5f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="0"/>
+	<camera name="Camera9" default="false" position="9 8 18" yaw="-0.6f" pitch="-1.5f" roll="0" znear="0.1f" zfar="100.f" fov="0.78f" zoom="10.f"/>-->
+</cameras>
+
+

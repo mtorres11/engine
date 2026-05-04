@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<static_meshes>
+	<static_mesh name="Box01" filename="Data/Meshes/Box01.mesh" />
+	<static_mesh name="Box02" filename="Data/Meshes/Box02.mesh" />
+	<static_mesh name="Box03" filename="Data/Meshes/Box03.mesh" />
+	<static_mesh name="Box04" filename="Data/Meshes/Box04.mesh" />
+	<static_mesh name="Box05_fbb" filename="Data/Meshes/Box05_fbb.mesh" />
+	<static_mesh name="Sphere01_fbs" filename="Data/Meshes/Sphere01_fbs.mesh" />
+	<static_mesh name="Box06" filename="Data/Meshes/Box06.mesh" />
+	<static_mesh name="Box07" filename="Data/Meshes/Box07.mesh" />
+	<static_mesh name="Box08" filename="Data/Meshes/Box08.mesh" />
+	<static_mesh name="Pyramid01" filename="Data/Meshes/Pyramid01.mesh" />
+	<static_mesh name="Cone02" filename="Data/Meshes/Cone02.mesh" />
+	<static_mesh name="Tube01_fbm" filename="Data/Meshes/Tube01_fbm.mesh" />
+	<static_mesh name="Cylinder01" filename="Data/Meshes/Cylinder01.mesh" />
+	<static_mesh name="Cylinder02" filename="Data/Meshes/Cylinder02.mesh" />
+	<static_mesh name="Cylinder03" filename="Data/Meshes/Cylinder03.mesh" />
+	<static_mesh name="Cylinder04" filename="Data/Meshes/Cylinder04.mesh" />
+	<static_mesh name="Cone03" filename="Data/Meshes/Cone03.mesh" />
+	<static_mesh name="Cone01" filename="Data/Meshes/Cone01.mesh" />
+	<static_mesh name="Cone04" filename="Data/Meshes/Cone04.mesh" />
+	<static_mesh name="Cone05" filename="Data/Meshes/Cone05.mesh" />
+	<static_mesh name="Box09" filename="Data/Meshes/Box09.mesh" />
+	<static_mesh name="Box10" filename="Data/Meshes/Box10.mesh" />
+	<static_mesh name="Box11" filename="Data/Meshes/Box11.mesh" />
+	<static_mesh name="Box12" filename="Data/Meshes/Box12.mesh" />
+	<static_mesh name="esfera2" filename="Data/Meshes/esfera2.mesh" />
+	<static_mesh name="esfera4" filename="Data/Meshes/esfera4.mesh" />
+	<static_mesh name="esfera1" filename="Data/Meshes/esfera1.mesh" />
+	<static_mesh name="esfera3" filename="Data/Meshes/esfera3.mesh" />
+	<static_mesh name="cilindro1" filename="Data/Meshes/cilindro1.mesh" />
+	<static_mesh name="cilindro2" filename="Data/Meshes/cilindro2.mesh" />
+	<static_mesh name="cilindro3" filename="Data/Meshes/cilindro3.mesh" />
+	<static_mesh name="SUELO AREA 1" filename="Data/Meshes/SUELO AREA 1.mesh" /> 
+	<static_mesh name="Plane01_fbp" filename="Data/Meshes/Plane01_fbp.mesh" />
+</static_meshes>

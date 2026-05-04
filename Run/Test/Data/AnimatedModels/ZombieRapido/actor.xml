@@ -1,0 +1,11 @@
+<actor name="zombierapido" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="cal3dTechnique">
+	<skeleton filename="zombie_skeleton.CSF"/>
+	<mesh filename="zombie_mesh.CMF"/>
+	<texture filename="difuse-zombie_enano.dds"/>
+	<animation name="zombie_walk" filename="zombie_walk.CAF"/>
+	<animation name="zombie_run" filename="zombie_run.CAF"/>
+	<animation name="zombie_impacto" filename="zombie_impacto.CAF"/>
+	<animation name="zombie_dead" filename="zombie_dead.CAF"/>
+	<animation name="zombie_attack" filename="zombie_attack.CAF"/>
+	<animation name="zombie_idle" filename="zombie_idle.CAF"/>
+</actor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Language id="spanish">
+  <literal id="HiWorld" font="arial"  color="0.5 0.2 0.4 0.8" value="Hola Mundo."/>
+  <literal id="Name" font="arial"  color="1.0 1.0 1.0 1.0" value="Me llamo Marco."/>
+  <literal id="Exit"    font="arial"  color="0.1 0.1 0.1 0.8" value="Salir"/>
+  
+  <!-- GUI: Pantalla del Titulo -->
+  <literal id="Lbl_Play" font="GUI_Labels" color="0.0 0.0 0.0 1.0" value="JUGAR"/>
+  <literal id="Lbl_Exit" font="GUI_Labels" color="0.0 0.0 0.0 1.0" value="SALIR"/>
+  <literal id="ControlFront" font="arial" color="1.0 1.0 1.0 0.8" value="W:   Avanzar hacia el frente."/>
+  <literal id="ControlRight" font="arial" color="1.0 1.0 1.0 0.8" value="D:   Avanzar a la derecha."/>
+  <literal id="ControlBack" font="arial" color="1.0 1.0 1.0 0.8" value="S:   Avanzar hacia atrás."/>
+  <literal id="ControlLeft" font="arial" color="1.0 1.0 1.0 0.8" value="A:   Avanzar a la izquierda."/>
+  <literal id="ControlExit" font="arial" color="1.0 1.0 1.0 0.8" value="ESC: Salir."/>
+  <literal id="ControlCamera" font="arial" color="1.0 1.0 1.0 0.8" value="Mouse: Controla la cámara."/>
+  
+  <literal id="Color1" font="arial" color="1.0 1.0 1.0 0.8" value="Color 1."/>
+  <literal id="Color2" font="arial" color="1.0 1.0 1.0 0.8" value="Color 2."/>
+  <literal id="Direction1" font="arial" color="1.0 1.0 1.0 0.8" value="Rango inicio dirección."/>
+  <literal id="Direction2" font="arial" color="1.0 1.0 1.0 0.8" value="Rango fin dirección."/>
+  <literal id="SizeMin" font="arial" color="1.0 1.0 1.0 0.8" value="Tamaño mínimo."/>
+  <literal id="SizeMax" font="arial" color="1.0 1.0 1.0 0.8" value="Tamaño máximo."/>
+  <literal id="LifeMin" font="arial" color="1.0 1.0 1.0 0.8" value="Tiempo de vida mínimo."/>
+  <literal id="LifeMax" font="arial" color="1.0 1.0 1.0 0.8" value="Tiempo de vida máximo."/>
+  <literal id="EmitRateMin" font="arial" color="1.0 1.0 1.0 0.8" value="Rango de emisión mínimo."/>
+  <literal id="EmitRateMax" font="arial" color="1.0 1.0 1.0 0.8" value="Rango de emisión máximo."/>
+  <literal id="Texture" font="arial" color="1.0 1.0 1.0 0.8" value="Textura."/>
+  <literal id="Emitter" font="arial" color="1.0 1.0 1.0 0.8" value="ID del Emisor."/>
+</Language>

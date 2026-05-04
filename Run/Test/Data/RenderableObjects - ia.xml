@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<renderable_objs>
+	<animated_model name="mi_amigo" core="bot" pos="0.0 0.5 0.0" yaw="-90.0" pitch="0.0" roll="0.0"/>
+	<object name="Box01" core="Box01" pos="4.12669 -1.40 -5.12213" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="32.2007 0.0 33.6931" max="-32.2007 0.70892 -33.6931" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box02" core="Box02" pos="-13.3103 -1.40 19.4156" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="7.69895 0.0 6.15154" max="-7.69895 10.0235 -6.15154" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box03" core="Box03" pos="26.0325 -1.40 24.0044" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="6.74799 0.0 4.22325" max="-6.74799 10.276 -4.22325" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box04" core="Box04" pos="-1.1245 -1.40 -17.029" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="8.84026 0.0 5.63984" max="-8.84026 8.38777 -5.63984" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box05" core="Box05" pos="28.1802 -1.40 -7.96043" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="5.81944 0.0 12.8943" max="-5.81944 19.7774 -12.8943" density="0.0" angularDamping="0.0" type="1"  />
+	<object name="Box06" core="Box06" pos="-20.0406 -1.40 -29.6208" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="3.91088 0.0 7.00091" max="-3.91088 14.7412 -7.00091" density="0.0" angularDamping="0.0" type="1"  />
+</renderable_objs>

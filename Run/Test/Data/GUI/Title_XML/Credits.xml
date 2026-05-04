@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Windows OnLoadWindows="" OnSaveWindows="" OnUpdateWindows="">
+
+  <Image name="bg_credits" posx="0.00" posy="0.00" height="100.00" width="100.00" visible="true" active="true"
+         default="img1" OnLoadValue="" OnSaveValue="" flip="" backGround="false">
+    <texture name="img1" name_texture="Data/GUI/Textures/Game/CreditsScreen/fondo.jpg"/>
+  </Image>
+
+  <Button name="Btn_MenuCredits" posx="84.25" posy="90.0" height="8.5" width="14.25" visible="true" 
+          active="true"
+          texture_normal="Data/GUI/Textures/Game/CtrlScreen/btn_menu/btn_menu.png"
+          texture_over="Data/GUI/Textures/Game/CtrlScreen/btn_menu/btn_menu pulsado.png"
+          texture_clicked="Data/GUI/Textures/Game/CtrlScreen/btn_menu/btn_menu pulsado.png"
+          texture_deactivated="Data/GUI/Textures/Game/CtrlScreen/btn_menu/btn_menu.png" 
+          OnClickedAction=" _guiM:active_windows('Main.xml')"
+          OnOverAction=""/>
+  
+</Windows>

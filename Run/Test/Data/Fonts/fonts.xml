@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Fonts>
+
+  <font id="arial"    	name="Arial"        file="data/fonts/arial.ttf"               size="16" bold="true"   italica="false" default="false" />
+  <font id="gui"      	name="kk"           file="data/fonts/SF Slapstick Comic.ttf"  size="20" bold="true"   italica="false" default="false" />
+  <font id="GUI_Labels" name="Nightmare 5"  file="data/fonts/Nightmare 5.ttf"  		  size="62" bold="false"  italica="false" default="false" />
+  
+</Fonts>

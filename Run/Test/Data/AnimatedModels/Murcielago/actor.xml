@@ -1,0 +1,7 @@
+<actor name="murcielago" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="cal3dTechnique">
+	<skeleton filename="murcielago-hueso.CSF"/>
+	<mesh filename="murcielago-mesh.CMF"/>
+	<texture filename="color_vrja.dds"/>
+	<animation name="murcielago-animation2" filename="murcielago-animation2.CAF"/>
+	<animation name="murcielago-animation" filename="murcielago-animation.CAF"/>
+</actor>

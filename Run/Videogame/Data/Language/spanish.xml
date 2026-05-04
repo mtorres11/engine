@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Language id="spanish">
+  <literal id="HiWorld" font="arial"  color="0.5 0.2 0.4 0.8" value="Hola Mundo."/>
+  <literal id="Name" font="arial"  color="1.0 1.0 1.0 1.0" value="Me llamo Marco."/>
+  <literal id="Exit"    font="arial"  color="0.1 0.1 0.1 0.8" value="Salir"/>
+</Language>

@@ -1,0 +1,15 @@
+<actor name="boss" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="Cal3DTechnique">
+	<skeleton filename="FinalBossSkeleton.CSF"/>
+	<mesh filename="FinalBossMesh.CMF"/>
+	<texture filename="z2 cuerpoDiffuseMap.dds"/>
+	<animation name="FBAnimationIdle" filename="FBAnimationIdle.CAF"/>
+	<animation name="FBAnimationAttack" filename="FBAnimationAttack.CAF"/>
+	<animation name="FBAnimationPreRun" filename="FBAnimationPreRun.CAF"/>
+	<animation name="FBAnimationRun" filename="FBAnimationRun.CAF"/>
+	<animation name="FBAnimationCrash" filename="FBAnimationCrash.CAF"/>
+	<animation name="FBAnimationStepUp" filename="FBAnimationStepUp.CAF"/>
+	<animation name="FBAnimationTurn" filename="FBAnimationTurn.CAF"/>
+	<animation name="FBAnimationHit" filename="FBAnimationHit.CAF"/>
+	<animation name="FBAnimationDead" filename="FBAnimationDead.CAF"/>
+	<animation name="FBAnimationWalk" filename="FBAnimationWalk.CAF"/>
+</actor>

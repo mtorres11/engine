@@ -1,0 +1,11 @@
+<actor name="zombievomitador" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="cal3dTechnique">
+	<skeleton filename="zombie_vomitador_skeleton.CSF"/>
+	<mesh filename="vomitador_salida_mesh.CMF"/>
+	<texture filename="difuse-zombie vomitador.dds"/>
+	<animation name="vomitador_aparicion_animation" filename="vomitador_aparicion_animation.CAF"/>
+	<animation name="vomitador_ataque_animation" filename="vomitador_ataque_animation.CAF"/>
+	<animation name="vomitador_iddle_animation" filename="vomitador_iddle_animation.CAF"/>
+	<animation name="vomitador_impacto_animation" filename="vomitador_impacto_animation.CAF"/>
+	<animation name="vomitador_muerte_animation" filename="vomitador_muerte_animation.CAF"/>
+	<animation name="vomitador_salida_animation" filename="vomitador_salida_animation.CAF"/>
+</actor>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Player>
+  <Parameters Instance="mi_amigo" MaxHealth="100.0" MoveSpeed="3.0" JumpVerticalSpeed="3.1" JumpMoveSpeed="2.5" LightAttackDamage="30.0" StrongAttackDamage="150.0" JumpTimeToStart="0.2" JumpDiretionCosAngle="0.7" AttackLight="MUERTE"/>
+  <Controller radius="0.5" height="1.0" slope="40.0" skinwidth="0.1" stepOffset="0.3"/>
+  <ToFace angle_rotation="0.018" camera_rotation="0.018"/>	
+  <Debug JumpVerticalSpeed="20.0" JumpMoveSpeed="0.4" HitDamage="5.0" RunSpeedFactor="2" />
+</Player>

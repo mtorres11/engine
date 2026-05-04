@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--Paths de las camaras para cinematicas-->
+<cameras>
+  <camera name="camera0">
+    <point pos="0 20 0" time="0" yaw="0" pitch="0" roll="0" />
+    <point pos="0 30 0" time="3" yaw="0" pitch="0" roll="0" />
+    <point pos="10 30 0" time="3" yaw="0" pitch="0" roll="0" />
+    <point pos="0 30 10" time="5" yaw="0" pitch="0" roll="0" />
+    <point pos="0 27 0" time="2" yaw="0" pitch="0" roll="0" />
+    <point pos="0 25 15" time="1" yaw="0" pitch="0" roll="0" />
+    <point pos="0 20 0" time="7" yaw="0" pitch="0" roll="0" />
+  </camera>
+</cameras>

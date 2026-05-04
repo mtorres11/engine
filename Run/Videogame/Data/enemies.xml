@@ -1,0 +1,22 @@
+<enemies>
+
+<templates>
+<enemy_template id="PATROLLER" mesh="Data\Enemies\Patroller.mesh"/>
+<enemy_template id="SNIPER" mesh="Data\Enemies\Sniper.mesh"/>
+<enemy_template id="TURRET" mesh="Data\Enemies\Turret.mesh"/>
+<enemy_template id="CAMERA" mesh="Data\Enemies\Camera.mesh"/>
+</templates>
+
+<instances>
+<enemy_instance type="PATROLLER" pos="0 0 0" rot="0 180 0" paths="0 1 2 3 4" move_speed="3.0" rotate_speed="10.0" health="100"/>
+<enemy_instance type="PATROLLER" pos="0 0 0" rot="0 75 0" paths="0 5 6 7 8" move_speed="3.0" rotate_speed="10.0" health="100"/>
+<enemy_instance type="PATROLLER" pos="0 0 0" rot="0 80 0" paths="6 9 10 11 4" move_speed="3.0" rotate_speed="10.0" health="100"/>
+<enemy_instance type="SNIPER" pos="0 0 0" rot="10 0 0" aim_distance="200" move_speed="1.0" rotate_speed="10.0" health="50"/>
+<enemy_instance type="SNIPER" pos="0 0 0" rot="10 80 0" aim_distance="500" move_speed="1.0" rotate_speed="10.0" health="50"/>
+<enemy_instance type="TURRET" pos="0 0 0" rot="10 0 0" max_angle="0 45 0" min_angle="0 0 0" move_speed="2.0" rotate_speed="5.0" health="200"/>
+<enemy_instance type="TURRET" pos="0 0 0" rot="10 280 0" max_angle="0 45 0" min_angle="0 0 0" move_speed="2.0" rotate_speed="5.0" health="200"/>
+<enemy_instance type="CAMERA" pos="0 0 0" rot="10 30 0" max_angle="0 180 0" min_angle="0 0 0" move_speed="1.0" rotate_speed="2.0" health="10"/>
+<enemy_instance type="CAMERA" pos="0 0 0" rot="10 10 0" max_angle="0 90 0" min_angle="0 0 0" move_speed="1.0" rotate_speed="2.0" health="10"/>
+<enemy_instance type="CAMERA" pos="0 0 0" rot="10 0 0" max_angle="0 360 0" min_angle="0 0 0" move_speed="1.0" rotate_speed="2.0" health="10"/>
+</instances>
+</enemies>

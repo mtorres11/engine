@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<static_meshes>
+	<static_mesh name="sky box" filename="Data/Level2/Meshes/sky box.mesh" selfIlluminationColor="0.25 0.22 0.32" />
+	
+	<static_mesh name="mesh_colisioncoliseo_no_visible" filename="Data/Level2/Meshes/mesh_colisioncoliseo_novisible.mesh" />
+	<static_mesh name="gradas ALTAS NOR-ESTE" filename="Data/Level2/Meshes/gradas ALTAS NOR-ESTE.mesh" />
+	<static_mesh name="gradas ALTAS SUR-ESTE" filename="Data/Level2/Meshes/gradas ALTAS SUR-ESTE.mesh" />
+	<static_mesh name="gradas ALTAS SUR-OESTE" filename="Data/Level2/Meshes/gradas ALTAS SUR-OESTE.mesh" />
+	<static_mesh name="gradas BAJAS SUR-OESTE " filename="Data/Level2/Meshes/gradas BAJAS SUR-OESTE .mesh" />
+	<static_mesh name="gradas BAjAS SUR-ESTE" filename="Data/Level2/Meshes/gradas BAjAS SUR-ESTE.mesh" />
+	<static_mesh name="gradas ALTAS NOR_OESTE" filename="Data/Level2/Meshes/gradas ALTAS NOR_OESTE.mesh" />
+	<static_mesh name="gradas BAJAS NOR_OESTE" filename="Data/Level2/Meshes/gradas BAJAS NOR_OESTE.mesh" />
+	<static_mesh name="gradas BAJAS NOR-ESTE" filename="Data/Level2/Meshes/gradas BAJAS NOR-ESTE.mesh" />
+	<static_mesh name="arena" filename="Data/Level2/Meshes/arena.mesh" />
+	<static_mesh name="Group tribuna" filename="Data/Level2/Meshes/Group tribuna.mesh" />
+	<static_mesh name="Entrada ESTE" filename="Data/Level2/Meshes/Entrada ESTE.mesh" />
+	<static_mesh name="eNTRADA sur" filename="Data/Level2/Meshes/eNTRADA sur.mesh" />
+	<static_mesh name="entradas OESTE" filename="Data/Level2/Meshes/entradas OESTE.mesh" />
+	<static_mesh name="group entradas y cartel" filename="Data/Level2/Meshes/group entradas y cartel.mesh" />
+	<static_mesh name="primer circulo" filename="Data/Level2/Meshes/primer circulo.mesh" />
+	<static_mesh name="primer circulo tribuna" filename="Data/Level2/Meshes/primer circulo tribuna.mesh" />
+	<static_mesh name="ascensor" filename="Data/Level2/Meshes/ascensor.mesh" />
+	<static_mesh name="entrada gradas ESTE" filename="Data/Level2/Meshes/entrada gradas ESTE.mesh" />
+	<static_mesh name="entrada gradas OESTE" filename="Data/Level2/Meshes/entrada gradas OESTE.mesh" />
+	<static_mesh name="ENTRADAS ATAUD" filename="Data/Level2/Meshes/ENTRADAS ATAUD.mesh" />
+	<static_mesh name="GlowStar" filename="Data/Level2/Meshes/GlowStar.mesh" selfIlluminationColor="0.6 0.6 0.6" />
+	
+	<static_mesh name="pequena NOR-OESTE" filename="Data/Level2/Meshes/pequena NOR-OESTE.mesh" />
+	<static_mesh name="pequena NOR-ESTE" filename="Data/Level2/Meshes/pequena NOR-ESTE.mesh" />
+	<static_mesh name="pequena SU-OESTE" filename="Data/Level2/Meshes/pequena SU-OESTE.mesh" />
+
+	<static_mesh name="ALPHAS" filename="Data/Level2/Meshes/ALPHAS.mesh" />
+	<static_mesh name="movimiento pierna diabla" filename="Data/Level2/Meshes/movimiento pierna diabla.mesh" />
+	<static_mesh name="columna NOR-ESTE" filename="Data/Level2/Meshes/columna NOR-ESTE.mesh" />
+	<static_mesh name="columna NOR-OESTE" filename="Data/Level2/Meshes/columna NOR-OESTE.mesh" />
+	<static_mesh name="columna SUR-ESTE" filename="Data/Level2/Meshes/columna SUR-ESTE.mesh" />
+	<static_mesh name="columna SUR OESTE" filename="Data/Level2/Meshes/columna SUR OESTE.mesh" />
+	<static_mesh name="pinaculos NO0R-ESTE" filename="Data/Level2/Meshes/pinaculos NO0R-ESTE.mesh" />
+	<static_mesh name="pinaculosNOR-OESTE" filename="Data/Level2/Meshes/pinaculosNOR-OESTE.mesh" />
+	<static_mesh name="pinaculos SUR-OESTE" filename="Data/Level2/Meshes/pinaculos SUR-OESTE.mesh" />
+	<static_mesh name="pinaculos SU-ESTE" filename="Data/Level2/Meshes/pinaculos SU-ESTE.mesh" />
+	
+</static_meshes>

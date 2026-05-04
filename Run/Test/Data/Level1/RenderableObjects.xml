@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<renderable_objs>
+	<object name="sky box" core="sky box" pos="38.8923 0.0 3.40008e-006" yaw="-2.00358e-005" pitch="0.0" roll="180.0" min="115.896 20.0 115.896" max="-115.896 -118.015 -115.896" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="mesh_sueloArea1_no_visble" core="mesh_sueloArea1_no_visble" pos="5.26455 0.0 -3.6709" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="9.02791 0.0 7.44893" max="-8.78826 25.2081 -8.32422" density="0.0" angularDamping="0.5" type="8" visible="true" />
+	<object name="mesh_area2_novisible" core="mesh_area2_novisible" pos="39.9683 -6.23311 -3.4696" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="24.9218 -13.7669 19.625" max="-25.8113 14.5023 -20.3714" density="0.0" angularDamping="0.5" type="8" visible="true" />
+	<object name="suelo area2" core="suelo area2" pos="39.9683 -6.23311 -3.4696" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="25.8113 -13.7669 19.6251" max="-25.8113 13.7669 -19.625" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="area 1" core="area 1" pos="5.26455 -20.0 -3.6709" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="9.02791 0.0 7.44893" max="-8.78826 31.0029 -8.39172" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="miscelanea" core="miscelanea" pos="37.5409 -0.0483217 -4.02265" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="2.03345 -0.245076 15.4783" max="-15.2708 9.88448 -13.4446" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="zona izquierda1" core="zona izquierda1" pos="39.3988 3.06332 10.8061" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="24.9716 -3.2072 1.03969" max="-24.9716 3.2072 -1.03969" density="0.0" angularDamping="0.0" type="32"  />
+	<object name="zona izquierda2" core="zona izquierda2" pos="39.4018 2.46028 15.4283" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="24.9686 -2.60416 0.787767" max="-24.9686 2.60416 -0.787769" density="0.0" angularDamping="0.0" type="32"  />
+	<object name="zona derecha 1" core="zona derecha 1" pos="39.5163 3.03016 -17.7778" yaw="180.0" pitch="0.0" roll="0.0" min="25.1203 -3.24036 1.39084" max="-25.1203 3.24036 -1.39084" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<!--<object name="zona derecha 2 A" core="zona derecha 2 A" pos="28.1809 2.74768 -20.9" yaw="180.0" pitch="0.0" roll="0.0" min="13.9582 -2.95788 2.74796" max="-13.9582 2.95788 -2.74796" visible="true" type="32" density="0.0" angularDamping="0.5"  />-->
+	<object name="zona derecha 2 A" core="zona derecha 2 A" pos="28.1809 2.74768 -20.94" yaw="180.0" pitch="0.0" roll="0.0" min="13.9582 -2.95788 2.74796" max="-13.9582 2.95788 -2.74796" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<!--<object name="zona derecha 2 B" core="zona derecha 2 B" pos="53.4145 2.70634 -20.9" yaw="180.0" pitch="0.0" roll="0.0" min="-11.3345 -2.91655 -2.63394" max="11.3344 2.91655 2.97297" visible="true" type="32" density="0.0" angularDamping="0.5"  />-->
+	<object name="zona derecha 2 B" core="zona derecha 2 B" pos="53.4145 2.70634 -20.87" yaw="180.0" pitch="0.0" roll="0.0" min="-11.3345 -0.47859 -0.410788" max="11.3344 5.35451 5.19612" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	
+	<object name="calabaa01" core="calabaa01" pos="23.5409 -20.0 2.0" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="0.211795 -0.181064 0.225646" max="-0.208564 0.224833 -0.212607" density="0.5" angularDamping="0.0" type="2" visible="false" />
+	
+	<object name="llave" core="llave" pos="17.0 1.37 13.6" yaw="90.0" pitch="-25.0" roll="-45.0" min="0.211795 -0.181064 0.225646" max="-0.208564 0.224833 -0.212607" density="0.0" angularDamping="0.0" type="1" visible="true" />
+	<object name="llave2" core="llave2" pos="42.1 0.5 8.5" yaw="90.0" pitch="-25.0" roll="-45.0" min="0.211795 -0.181064 0.225646" max="-0.208564 0.224833 -0.212607" density="0.0" angularDamping="0.0" type="1" visible="true"/>
+	
+	<object name="parcela1" core="parcela1" pos="31.4543 2.74223 2.92166" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="4.80687 -4.21087 4.77119" max="-4.80687 2.57987 -4.77119" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="parcela 2" core="parcela 2" pos="31.4405 3.08061 -9.88095" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="4.59502 -3.14642 4.38649" max="-4.59502 4.55356 -4.3865" density="0.0" angularDamping="0.0" type="32" visible="true"  />
+	<object name="parcela 3" core="parcela 3" pos="43.6304 1.11966 -10.1416" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="4.60241 -1.2023 5.40845" max="-4.60241 5.20338 -4.36891" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="parcela 4" core="parcela 4" pos="43.8481 3.62673 3.59675" yaw="0.0" pitch="0.0" roll="0.0" min="-4.56089 3.82288 -5.68914" max="4.56089 -3.82288 5.68914" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="parcela 6" core="parcela 6" pos="56.2274 0.0288577 2.56333" yaw="-1.00179e-005" pitch="0.0" roll="2.73208e-005" min="6.67601 -0.152108 4.25" max="-4.25 6.29323 -6.90648" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="parcela 5" core="parcela 5" pos="56.0525 3.39 -7.91599" yaw="-1.00179e-005" pitch="0.0" roll="2.73208e-005" min="4.56153 -3.49421 6.25481" max="-4.56152 3.49421 -6.25481" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	
+	<object name="lagp" core="lagp" pos="39.8576 -18.2451 3.48446e-006" yaw="-1.26694e-005" pitch="0.0" roll="0.0" min="65.4058 0.0 65.4058" max="-65.4058 0.000101089 -65.4058" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<!--<object name="puertasalida" core="puertasalida" pos="64.4305 2.3172 -3.73004" yaw="94.9098" pitch="-4.35769" roll="-94.7477" min="1.43353 0.0 2.50377" max="-1.24683 0.0400391 -2.25223" visible="true" type="1" density="0.0" angularDamping="0.5"  />-->
+	<object name="box_puerta palanca_visible" core="box_puerta palanca_visible" pos="49.6021 1.38809 10.6416" yaw="-1.00179e-005" pitch="0.0" roll="-90.0" min="1.3236 0.0 1.51643" max="-1.3236 0.0 -1.51643" visible="true" type="1" density="0.0" angularDamping="0.5"  />
+	<object name="box_puerta2 palanca_visible" core="box_puerta2 palanca_visible" pos="37.423 1.58119 -17.8925" yaw="-180.0" pitch="0.0" roll="-84.1342" min="1.3236 0.0 1.51643" max="-1.3236 0.0 -1.51643" visible="true" type="1" density="0.0" angularDamping="0.5"  />
+	<!--<object name="box_puerta2 palanca_visible" core="box_puerta2 palanca_visible" pos="37.6021 1.4 -17.5" yaw="-1.00179e-005" pitch="0.0" roll="90.0" min="1.3236 0.0 1.51643" max="-1.3236 0.0 -1.51643" visible="true" type="1" density="0.0" angularDamping="0.5"  />-->
+	
+	<animated_model name="mi_amigo" core="bot" pos="4.0 2.1 -2.8" yaw="-90.0" pitch="0.0" roll="0.0" scalex="0.88" scaley="0.88" scalez="0.88"/>
+	<animated_model name="palanca" core="palanca" pos="0.0 0.0 0.0" yaw="180.0" pitch="0.0" roll="0.0"/>
+	<!--<animated_model name="murcielago" core="murcielago" pos="50.0 10.0 0.0" yaw="0.0" pitch="0.0" roll="0.0"/>-->
+	<animated_model name="banderola" core="banderola" pos="37.018 6.313 7.17" yaw="74,032" pitch="40,362" roll="133,579" />
+	<animated_model name="Puerta_Salida" core="Puerta_Salida" pos="-0.25 -0.25 0.0" yaw="180.0" pitch="0.0" roll="0.0"/>
+  	
+	<!--<animated_model name="zombie" core="zombie" pos="30.0 0.0 0.0" yaw="-90.0" pitch="0.0" roll="0.0"/>-->
+	
+	<object name="pared entrada 2" core="pared entrada 2" pos="14.3229 2.5 8.33784" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="0.200523 -2.5 7.4892" max="-0.20052 2.5 -7.4892" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="entrada" core="entrada" pos="19.7644 3.93216 -3.60818" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="5.99616 -4.07604 10.9163" max="-5.99616 4.07605 -19.4401" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	<object name="interior pasillo derecho" core="interior pasillo derecho" pos="39.6485 2.1344 -20.4053" yaw="88.014" pitch="0.0" roll="0.0" min="1.70627 -2.20651 24.6873" max="-1.70627 2.20651 -24.6873" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="interior pasillo izquierdo" core="interior pasillo izquierdo" pos="39.5247 1.46281 13.3063" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="24.7691 -1.53825 1.90238" max="-24.7691 1.53825 -1.90238" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="a3-coliseo exterior" core="a3-coliseo exterior" pos="91.507 4.09368 -3.11372" yaw="-1.00179e-005" pitch="0.0" roll="1.99999" min="26.7297 -4.50607 17.7901" max="-26.7297 16.5251 -18.2099" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="agua fuente" core="agua fuente" pos="62.2614 0.2 -20.6898" yaw="90.0" pitch="0.0" roll="0.0" min="0.977664 0.0 1.70208" max="-0.977665 0.0 -1.70208" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="velas centro" core="velas centro" pos="21.5501 0.918211 4.61153" yaw="-56.4294" pitch="0.0" roll="0.0" min="0.869534 -0.418291 0.745575" max="-0.869537 0.418291 -0.745577" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="alphas a2 centro" core="alphas a2 centro" pos="39.0247 1.40533 -3.90217" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="25.2528 -1.50743 14.0908" max="-25.1891 3.14361 -13.8909" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="alphas a2 derecha" core="alphas a2 derecha" pos="39.1525 2.46515 -20.9519" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="25.5 -2.46315 2.72065" max="-25.5 2.46315 -2.72065" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="alphas a2 izuieda" core="alphas a2 izuieda" pos="39.4101 2.69159 12.2809" yaw="-1.00179e-005" pitch="0.0" roll="0.0" min="24.8673 -2.68959 3.58724" max="-24.8673 2.68959 -3.58724" visible="true" type="32" density="0.0" angularDamping="0.5"  />
+	<object name="fondo" core="fondo" pos="36.5875 -8.06889 4.07119e-006" yaw="-1.34908e-005" pitch="0.0" roll="0.0" min="34.9711 -6.35969 30.2859" max="-34.9711 7.14135 -30.2859" density="0.0" angularDamping="0.0" type="32" visible="true" />
+	
+</renderable_objs>

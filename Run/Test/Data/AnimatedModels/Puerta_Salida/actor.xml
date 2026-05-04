@@ -1,0 +1,7 @@
+<actor name="Puerta_Salida" radius_bs="2.0" pos_bs="0.0 1.0 0.0" effect="cal3d" technique="cal3dTechnique">
+	<skeleton filename="puerta_skeleton.CSF"/>
+	<mesh filename="puerta_mesh.CMF"/>
+	<texture filename="canalon_tiled.dds"/>
+	<animation name="puerta_animation3" filename="puerta_animacion3.CAF"/>
+	<animation name="puerta_animation2" filename="puerta_animacion2.CAF"/>
+</actor>

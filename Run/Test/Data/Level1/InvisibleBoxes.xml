@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Boxes>
+  <!-- plataformas -->
+  <Box Name="Box1" Size="0.01 0.11 2.0" Pos="24.3 -2.3 13.35" Yaw="0.3" Pitch="0.0" Roll="0.0" />
+  <Box Name="Box2" Size="0.01 0.12 1.0" Pos="23.3 -2.3 13.9" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+  <Box Name="Box3" Size="0.01 0.11 0.5" Pos="22.8 -2.3 12.2" Yaw="-0.75" Pitch="0.0" Roll="0.0" />
+  <Box Name="Box4" Size="0.01 0.11 1.1" Pos="20.5 -2.3 14.0" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+  <Box Name="Box5" Size="0.01 0.11 0.5" Pos="21.2 -2.3 12.2" Yaw="0.72" Pitch="0.0" Roll="0.0" />
+  <Box Name="Box6" Size="0.01 0.1 1.8" Pos="20.0 -2.3 13.35" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+  
+  <Box Name="PuertaSalida" Size="0.2 1.0 0.8" Pos="64.3 1.4 -3.6" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+  <Box Name="Antorcha1" Size="0.2 0.2 0.2" Pos="33.7 1.8 -9.5" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+  <Box Name="Antorcha2" Size="0.2 0.2 0.2" Pos="30.77 1.8 -12.42" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+  <Box Name="PuertaPalanca" Size="0.8 1.0 0.2" Pos="37.4 1.6 -18.2" Yaw="0.0" Pitch="0.0" Roll="0.0" />
+</Boxes>

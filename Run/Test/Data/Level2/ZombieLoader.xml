@@ -1,0 +1,31 @@
+<zombies>
+  <corezombie>
+    <common_zombie name="ZOMBIE_NORMAL" core_animated_model="zombie" move_speed="6.0" rotate_speed="0.09" radius_smelling="22.0" radius_viewing="3.0" scaled="1.0" health="100"/>
+    <common_zombie name="ZOMBIE_BOSS" core_animated_model="boss" move_speed="1.5" rotate_speed="0.3" radius_smelling="10.0" radius_viewing="4.0" scaled="1.0" health="1400"/>
+  </corezombie>
+ 
+  <instancezombie>
+  <!--recuperacion_tras_dar_golpe = pausa despues de dar un golpe o tiempo de idle
+	tiempoMinEntreGolpeyGolpe y tiempoMaxEntreGolpeyGolpe = se obtendra un tiempo entre ellos para dar el siguiente golpe
+	speed_retroceso = vel. retirada y en avance move_speed
+	nombre_mesh_colision_crash = con la mesh que debe chocar el overlap sphere de la barriga del boss
+  -->
+     <zombie_instance type="ZOMBIE_BOSS" name="z_inst_200" pos="9.0 0.4 -7.8" rot="0 0 0" 
+		recuperacion_tras_dar_golpe="0.4" 
+		tiempoMinEntreGolpeyGolpe= "0.5" 
+		tiempoMaxEntreGolpeyGolpe= "3.5"
+		speed_retroceso="3.0"
+		speed_embestida="12.0"
+		tiempo_inactivo_tras_recibir_golpe="0.5"
+		tiempo_invencibilidad="3.5"
+		tiempo_max_encarando="2.0"
+		nombre_mesh_colision_crash="mesh_colisioncoliseo_no_visible"
+		numero_lanzas_pisoton="8"
+		numero_iter_lanzas_pisoton="5"
+	/>
+	
+<!--	   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_1" pos="15.6 0.0 8.8" rot="180 0 0" agressivity = "1"/>
+   <zombie_instance type="ZOMBIE_NORMAL" name="z_inst_5" pos="24.4 0.0 -11.3" rot="80 0 0" agressivity = "2"/>
+-->
+  </instancezombie>
+</zombies>

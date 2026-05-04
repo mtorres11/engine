@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<animated_models>
+  <animated_model name="bot" path="Data/AnimatedModels/Muerte/" instancing="false"/>
+  <animated_model name="zombie" path="Data/AnimatedModels/Zombie/" instancing="false"/>
+  <animated_model name="boss" path="Data/AnimatedModels/Final Boss/" instancing="false"/>
+  <animated_model name="lanza" path="Data/AnimatedModels/Lanza/" instancing="false"/>
+  <animated_model name="pierna" path="Data/AnimatedModels/Pierna/" instancing="false"/>
+  <animated_model name="zombiecoliseo1" path="Data/AnimatedModels/ZombieColiseo_1/" instancing="true"/>
+  <animated_model name="zombiecoliseo2" path="Data/AnimatedModels/ZombieColiseo_2/" instancing="true"/>
+  <animated_model name="zombiecoliseo3" path="Data/AnimatedModels/ZombieColiseo_3/" instancing="true"/>
+  <animated_model name="zombiecoliseo4" path="Data/AnimatedModels/ZombieColiseo_4/" instancing="true"/>
+</animated_models>

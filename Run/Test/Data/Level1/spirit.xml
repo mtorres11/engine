@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<spirit>
+  <!-- 1- parametros subir bajar, 2- velocidad y distancias , 3- tiempo estados, 4- contento 5-Luz -->
+  <parameters posini="18.9 2.9 -20.4" apertura="0.0" speedup="3.3" speeddown="0.5" heightflymax="3.0" heightflymin="1.9" 
+  speedslow="1.0" speedfast="2.5" distnear="0.7" distfar="3.0" 
+  timeidle="2.0" timechase="7.0"
+  numlaps="3" speedcontento="2000.0"
+  light="ESPIRITU"
+  />
+</spirit>

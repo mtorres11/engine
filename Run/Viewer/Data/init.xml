@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Parameters>
+  <Debug fullscreen="true" widthscreen="800" heightscreen="600" mouseEnabled="no" consoleEnabled="yes" guiEnabled="yes"/>
+</Parameters>
+
+
+<!--
+
+Original:
+<Parameters>
+  <params fullscreen="false" widthscreen="800" heightscreen="600" />
+</Parameters>
+
+
+getName()
+
+<ScreenParameters>
+	<FullScreen>False</FullScreen>
+	<Width>100</Width>
+	<Height>100</Height>
+</ScreenParameters>-->

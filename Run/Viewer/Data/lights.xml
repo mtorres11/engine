@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<lights>
+	<light name ="Omni01" type="omni" pos="20 5 17" color="1.0 0.3 0.0" att_start_range="6" att_end_range="10.0"/>
+	<light name="OmniCyan" type="omni" pos="-20 2 20.3" color="0.0 1.0 1.0" att_start_range="8.0" att_end_range="16.0"/>
+	<!--<light name ="Direct01" type="directional" pos="-49.7626 29.9235 -29.2864" dir="1.0 -1.0 1.0" color="1.0 1.0 1.0" render_shadows="false" att_start_range="80.0" att_end_range="200.0"/>-->
+	<light name ="Direct01" type="directional" pos="-69.7626 29.9235 -29.2864" dir="0.791535 -0.410856 0.452404" color="0.8 0.7 0.7" render_shadows="false" att_start_range="80.0" att_end_range="200.0"/>
+	<!--<light name ="Spot02" type="spot" pos="30.0 22 -10" dir="0.0 0.0 1.0" color="1.0 0.0 0.0" render_shadows="false" att_start_range="10.0" att_end_range="100.0"/>-->
+	<!--<light name ="Direct03" type="directional" pos="0.0 5.683761 0.0" dir="-1.0 -1.0 0.0" color="0.0 0.0 1.0" render_shadows="false" att_start_range="80.0" att_end_range="200.0"/>-->
+	<light name ="Spot01" type="spot" pos="110.0 110.0 110.0" dir="0 0 1" color="0.0 1.0 0.0" angle="20.0" falloff="40.0" att_start_range="1.0" att_end_range="30.0"/>
+	<!--<light name ="Spot02" type="spot" pos="0 5.9235 -5.2864" dir="1 -0.3 1.0" color="0.0 1.0 0.0" angle="25.0" falloff="45.0" att_start_range="0.1" att_end_range="80.0"/>-->
+</lights>
