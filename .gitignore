@@ -1,0 +1,42 @@
+# Local developer secrets and machine-specific paths (see .dev.vars.example)
+.dev.vars
+.env
+.env.local
+*.local
+
+# CMake / out-of-source builds
+build/
+out/
+cmake-build-*/
+
+# Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]esktop.ini
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# This project outputs libs under Bin/ (tracked assets may live elsewhere — ignore intermediates)
+Bin/Intermediate*/
+Bin/Intermediate_d/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Logs and caches
+*.log
+.cache/

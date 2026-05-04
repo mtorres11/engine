@@ -1,0 +1,30 @@
+# Copy to ".dev.vars" at the repo root and fill in your local paths.
+#   cp .dev.vars.example .dev.vars
+#
+# Format: KEY=value (no spaces around "="). Lines starting with # are ignored.
+# Use forward slashes on Windows to avoid escaping backslashes, e.g.:
+#   PHYSX281_SDK=C:/NVIDIA/NVIDIA PhysX SDK/v2.8.1
+#
+# Load into your shell before running CMake or other tools:
+#   source scripts/load-dev-vars.sh
+#   . .\scripts\load-dev-vars.ps1
+
+# --- Required for Test.exe (links PhysX 2.8.1) ---
+# Root of the legacy NVIDIA PhysX SDK 2.8.1 install (contains SDKs/ folder).
+PHYSX281_SDK=
+
+# --- Not vendored in repo; extract Boost or point to an install ---
+# Project files expect headers under: $(REPO)/3dParty/boost_1_45_0
+# Either unpack boost there or set this and wire CMake later to use it.
+BOOST_ROOT=
+
+# --- Optional: legacy DirectX SDK (only if you rely on D3DX9 outside Windows SDK) ---
+# DXSDK_DIR=
+
+# --- Optional: vcpkg root (future CMake workflow) ---
+# VCPKG_ROOT=
+
+# --- Debugger working directories (documentary; Visual Studio does not read this file) ---
+ENGINE_RUN_TEST=Run/Test
+ENGINE_RUN_VIEWER=Run/Viewer
+ENGINE_RUN_VIDEOGAME=Run/Videogame
